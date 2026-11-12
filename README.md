@@ -42,6 +42,7 @@ php -v
 
 - [មេរៀនទី ១៖ ស្វែងយល់អំពី PHP និងរៀបចំបរិស្ថាន](01-Beginner/lesson-01-introduction-to-php.md)
 - [មេរៀនទី ១៥៖ PHP JSON Handling](01-Beginner/lesson-15-php-json-handling.md)
+- [មេរៀនទី ១៦៖ PHP និង MySQL ដោយប្រើ PDO](01-Beginner/lesson-16-php-mysql-pdo.md)
 
 ## ឯកសារយោងផ្លូវការ
 
