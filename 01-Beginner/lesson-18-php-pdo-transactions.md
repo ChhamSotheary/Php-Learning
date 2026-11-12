@@ -92,7 +92,7 @@ CREATE TABLE transfers (
 ) ENGINE=InnoDB;
 ```
 
-CHECK Constraint ត្រូវបានអនុវត្តដោយ MySQL ជំនាន់ថ្មីៗ។ កម្មវិធីនៅតែត្រូវ Validate Input ផងដែរ; Constraint នៅ Database ជាខ្សែការពារបន្ថែម។
+CHECK Constraint ត្រូវបានអនុវត្តដោយ MySQL 8.0.16 ឡើងទៅ។ ក្នុងជំនាន់ចាស់ៗ វាអាចមិនត្រូវបានអនុវត្ត។ កម្មវិធីនៅតែត្រូវ Validate Input ផងដែរ; Constraint នៅ Database ជាខ្សែការពារបន្ថែម។
 
 **ប្រយ័ត្ន៖** DDL ដូចជា `CREATE TABLE` និង `DROP TABLE` អាចបង្ក Implicit Commit នៅ MySQL។ កុំរំពឹងថា Rollback នឹងលុបចោល DDL និងការផ្លាស់ប្ដូរមុនវា។ បង្កើត Schema ក្រៅ Transaction ដែលដំណើរការក្នុងកម្មវិធី។
 
