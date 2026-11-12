@@ -285,6 +285,10 @@ try {
             );
     }
 } catch (PDOException $e) {
+    if ($e->getCode() === '23000') {
+        jsonError(409, 'data_conflict', 'ទិន្នន័យប៉ះទង្គិច ឬត្រូវបានប្រើរួចហើយ។');
+    }
+
     error_log('Student API database error: ' . $e->getMessage());
     jsonError(500, 'server_error', 'មានបញ្ហាក្នុងប្រព័ន្ធ។');
 }
