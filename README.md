@@ -32,9 +32,9 @@
 
 សូមពិនិត្យ Version ដោយប្រើ៖
 
-\`\`\`bash
+```bash
 php -v
-\`\`\`
+```
 
 ការដំឡើង៖ [PHP Installation Manual](https://www.php.net/manual/en/install.php)
 
