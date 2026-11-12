@@ -121,6 +121,7 @@ php -v
 - [មេរៀនទី ៧៩៖ Laravel Views និង Blade Templates](02-Laravel/lesson-79-laravel-views-blade-templates.md)
 - [មេរៀនទី ៨០៖ Laravel Feature Tests និង HTTP Tests](02-Laravel/lesson-80-laravel-feature-http-tests.md)
 - [មេរៀនទី ៨១៖ Laravel Model Factories និង Database Seeders](02-Laravel/lesson-81-laravel-factories-seeders.md)
+- [មេរៀនទី ៨២៖ Laravel Cache និងការកែលម្អល្បឿន](02-Laravel/lesson-82-laravel-cache.md)
 
 ## ឯកសារយោងផ្លូវការ
 
