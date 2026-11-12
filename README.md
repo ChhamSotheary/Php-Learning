@@ -59,6 +59,7 @@ php -v
 - [មេរៀនទី ៣០៖ សុវត្ថិភាព Upload ឯកសារនៅក្នុង PHP](01-Beginner/lesson-30-php-secure-file-uploads.md)
 - [មេរៀនទី ៣១៖ សុវត្ថិភាព Session និង Cookie ក្នុង PHP](01-Beginner/lesson-31-php-session-cookie-security.md)
 - [មេរៀនទី ៣២៖ HTTPS និង Security Headers សម្រាប់ PHP](01-Beginner/lesson-32-php-https-security-headers.md)
+- [មេរៀនទី ៣៣៖ Configuration និង Secrets ក្នុង PHP](01-Beginner/lesson-33-php-configuration-secrets.md)
 
 ## ឯកសារយោងផ្លូវការ
 
