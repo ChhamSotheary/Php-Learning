@@ -44,6 +44,7 @@ php -v
 - [មេរៀនទី ១៥៖ PHP JSON Handling](01-Beginner/lesson-15-php-json-handling.md)
 - [មេរៀនទី ១៦៖ PHP និង MySQL ដោយប្រើ PDO](01-Beginner/lesson-16-php-mysql-pdo.md)
 - [មេរៀនទី ១៧៖ Database Relationships, JOIN និង Pagination](01-Beginner/lesson-17-php-database-relationships-joins-pagination.md)
+- [មេរៀនទី ១៨៖ PDO Transactions និងភាពត្រឹមត្រូវនៃទិន្នន័យ](01-Beginner/lesson-18-php-pdo-transactions.md)
 
 ## ឯកសារយោងផ្លូវការ
 
