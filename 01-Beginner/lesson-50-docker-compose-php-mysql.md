@@ -42,7 +42,6 @@ Web Document Root គួរតែទៅ `public/` ដើម្បីកុំឱ
 ```dockerfile
 FROM php:8.3-apache
 RUN docker-php-ext-install pdo_mysql
-ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
 RUN sed -ri -e 's!/var/www/html!/var/www/html/public!g' \
     /etc/apache2/sites-available/*.conf \
     /etc/apache2/apache2.conf \
@@ -86,7 +85,7 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
     healthcheck:
-      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u\"$$${MYSQL_USER}\" -p\"$$${MYSQL_PASSWORD}\""]
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u\"${MYSQL_USER}\" -p\"${MYSQL_PASSWORD}\""]
       interval: 5s
       timeout: 5s
       retries: 10
