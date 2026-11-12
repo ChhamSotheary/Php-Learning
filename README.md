@@ -32,15 +32,16 @@
 
 សូមពិនិត្យ Version ដោយប្រើ៖
 
-```bash
+\`\`\`bash
 php -v
-```
+\`\`\`
 
 ការដំឡើង៖ [PHP Installation Manual](https://www.php.net/manual/en/install.php)
 
 ## មេរៀន
 
 - [មេរៀនទី ១៖ ស្វែងយល់អំពី PHP និងរៀបចំបរិស្ថាន](01-Beginner/lesson-01-introduction-to-php.md)
+- [មេរៀនទី ១៥៖ PHP JSON Handling](01-Beginner/lesson-15-php-json-handling.md)
 
 ## ឯកសារយោងផ្លូវការ
 
