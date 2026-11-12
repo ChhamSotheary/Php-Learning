@@ -47,6 +47,7 @@ php -v
 - [មេរៀនទី ១៨៖ PDO Transactions និងភាពត្រឹមត្រូវនៃទិន្នន័យ](01-Beginner/lesson-18-php-pdo-transactions.md)
 - [មេរៀនទី ១៩៖ រៀបចំកម្មវិធី CRUD ដោយ PHP និង PDO](01-Beginner/lesson-19-php-crud-forms-and-project-structure.md)
 - [មេរៀនទី ២០៖ OOP ក្នុង PHP — Classes, Objects និង Constructor](01-Beginner/lesson-20-php-oop-classes-objects-constructors.md)
+- [មេរៀនទី ២១៖ Inheritance, Abstract Classes និង Interfaces](01-Beginner/lesson-21-php-oop-inheritance-abstract-interfaces.md)
 
 ## ឯកសារយោងផ្លូវការ
 
