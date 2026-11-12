@@ -72,6 +72,7 @@ php -v
 - [មេរៀនទី ៤៣៖ HTTP Caching និង ETag សម្រាប់ PHP API](01-Beginner/lesson-43-php-http-caching-etag.md)
 - [មេរៀនទី ៤៤៖ CORS សម្រាប់ PHP API](01-Beginner/lesson-44-php-api-cors.md)
 - [មេរៀនទី ៤៥៖ Webhooks និងការផ្ទៀងផ្ទាត់ Signature ក្នុង PHP](01-Beginner/lesson-45-php-webhooks-signature-idempotency.md)
+- [មេរៀនទី ៤៦៖ Deploy PHP Application ទៅ Production](01-Beginner/lesson-46-php-production-deployment.md)
 
 ## ឯកសារយោងផ្លូវការ
 
