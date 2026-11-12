@@ -120,6 +120,7 @@ php -v
 - [មេរៀនទី ៧៨៖ Laravel Exception Handling និង Logging](02-Laravel/lesson-78-laravel-exception-handling-logging.md)
 - [មេរៀនទី ៧៩៖ Laravel Views និង Blade Templates](02-Laravel/lesson-79-laravel-views-blade-templates.md)
 - [មេរៀនទី ៨០៖ Laravel Feature Tests និង HTTP Tests](02-Laravel/lesson-80-laravel-feature-http-tests.md)
+- [មេរៀនទី ៨១៖ Laravel Model Factories និង Database Seeders](02-Laravel/lesson-81-laravel-factories-seeders.md)
 
 ## ឯកសារយោងផ្លូវការ
 
