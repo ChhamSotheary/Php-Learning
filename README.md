@@ -56,6 +56,7 @@ php -v
 - [មេរៀនទី ២៧៖ Authentication និង Authorization សម្រាប់ API](01-Beginner/lesson-27-api-authentication-authorization.md)
 - [មេរៀនទី ២៨៖ Rate Limiting, Audit Logging និងការការពារ Brute Force](01-Beginner/lesson-28-api-rate-limiting-audit-logging.md)
 - [មេរៀនទី ២៩៖ ការការពារ CSRF, XSS និង SQL Injection ក្នុង PHP](01-Beginner/lesson-29-php-csrf-xss-sql-injection.md)
+- [មេរៀនទី ៣០៖ សុវត្ថិភាព Upload ឯកសារនៅក្នុង PHP](01-Beginner/lesson-30-php-secure-file-uploads.md)
 
 ## ឯកសារយោងផ្លូវការ
 
