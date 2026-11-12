@@ -69,6 +69,7 @@ php -v
 - [មេរៀនទី ៤០៖ Error Handling, Logging និង Debugging ក្នុង PHP](01-Beginner/lesson-40-php-error-logging-debugging.md)
 - [មេរៀនទី ៤១៖ Pagination, Filtering និង Sorting សម្រាប់ PHP API](01-Beginner/lesson-41-php-api-pagination-filtering-sorting.md)
 - [មេរៀនទី ៤២៖ API Versioning និង OpenAPI Documentation](01-Beginner/lesson-42-php-api-versioning-openapi.md)
+- [មេរៀនទី ៤៣៖ HTTP Caching និង ETag សម្រាប់ PHP API](01-Beginner/lesson-43-php-http-caching-etag.md)
 
 ## ឯកសារយោងផ្លូវការ
 
