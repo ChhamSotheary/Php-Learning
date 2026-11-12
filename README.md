@@ -127,6 +127,7 @@ php -v
 - [មេរៀនទី ៨៥៖ Laravel Notifications](02-Laravel/lesson-85-laravel-notifications.md)
 - [មេរៀនទី ៨៦៖ Laravel File Storage និងការផ្ទុក Upload](02-Laravel/lesson-86-laravel-file-storage-uploads.md)
 - [មេរៀនទី ៨៧៖ ដាក់ Laravel Application ទៅ Production](02-Laravel/lesson-87-laravel-production-deployment.md)
+- [មេរៀនទី ៨៨៖ Laravel Events និង Listeners](02-Laravel/lesson-88-laravel-events-listeners.md)
 
 ## ឯកសារយោងផ្លូវការ
 
