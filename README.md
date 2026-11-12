@@ -113,6 +113,7 @@ php -v
 - [មេរៀនទី ៧១៖ Laravel Routing និង Controllers](02-Laravel/lesson-71-laravel-routing-controllers.md)
 - [មេរៀនទី ៧២៖ Laravel Request និងការផ្ទៀងផ្ទាត់ទិន្នន័យ](02-Laravel/lesson-72-laravel-requests-validation.md)
 - [មេរៀនទី ៧៣៖ Laravel Database Migrations និង Eloquent ORM](02-Laravel/lesson-73-laravel-migrations-eloquent.md)
+- [មេរៀនទី ៧៤៖ Eloquent Relationships និង Laravel API Resources](02-Laravel/lesson-74-laravel-eloquent-relationships-api-resources.md)
 
 ## ឯកសារយោងផ្លូវការ
 
