@@ -114,6 +114,7 @@ php -v
 - [មេរៀនទី ៧២៖ Laravel Request និងការផ្ទៀងផ្ទាត់ទិន្នន័យ](02-Laravel/lesson-72-laravel-requests-validation.md)
 - [មេរៀនទី ៧៣៖ Laravel Database Migrations និង Eloquent ORM](02-Laravel/lesson-73-laravel-migrations-eloquent.md)
 - [មេរៀនទី ៧៤៖ Eloquent Relationships និង Laravel API Resources](02-Laravel/lesson-74-laravel-eloquent-relationships-api-resources.md)
+- [មេរៀនទី ៧៥៖ Laravel Authentication និង Authorization](02-Laravel/lesson-75-laravel-authentication-authorization.md)
 
 ## ឯកសារយោងផ្លូវការ
 
