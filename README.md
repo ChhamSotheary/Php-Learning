@@ -74,6 +74,7 @@ php -v
 - [មេរៀនទី ៤៥៖ Webhooks និងការផ្ទៀងផ្ទាត់ Signature ក្នុង PHP](01-Beginner/lesson-45-php-webhooks-signature-idempotency.md)
 - [មេរៀនទី ៤៦៖ Deploy PHP Application ទៅ Production](01-Beginner/lesson-46-php-production-deployment.md)
 - [មេរៀនទី ៤៧៖ CI/CD សម្រាប់ PHP ដោយ GitHub Actions](01-Beginner/lesson-47-php-github-actions-ci.md)
+- [មេរៀនទី ៤៨៖ Static Analysis ក្នុង PHP ដោយ PHPStan](01-Beginner/lesson-48-php-static-analysis-phpstan.md)
 
 ## ឯកសារយោងផ្លូវការ
 
