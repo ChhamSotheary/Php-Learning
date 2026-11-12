@@ -193,10 +193,10 @@ composer show --platform
 <?php
 declare(strict_types=1);
 
-require dirname(__DIR__) . '/vendor/autoload.php';
-
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
+
+require dirname(__DIR__) . '/vendor/autoload.php';
 
 $logger = new Logger('student-app');
 $logger->pushHandler(new StreamHandler(__DIR__ . '/../var/app.log'));
