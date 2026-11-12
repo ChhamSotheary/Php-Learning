@@ -62,6 +62,7 @@ php -v
 - [មេរៀនទី ៣៣៖ Configuration និង Secrets ក្នុង PHP](01-Beginner/lesson-33-php-configuration-secrets.md)
 - [មេរៀនទី ៣៤៖ ការផ្ទៀងផ្ទាត់ទិន្នន័យ និង Input ក្នុង PHP](01-Beginner/lesson-34-php-input-validation.md)
 - [មេរៀនទី ៣៥៖ ផ្ញើ Email និងផ្ទៀងផ្ទាត់អាសយដ្ឋានក្នុង PHP](01-Beginner/lesson-35-php-email-verification.md)
+- [មេរៀនទី ៣៦៖ Password Reset ដែលមានសុវត្ថិភាពក្នុង PHP](01-Beginner/lesson-36-php-secure-password-reset.md)
 
 ## ឯកសារយោងផ្លូវការ
 
