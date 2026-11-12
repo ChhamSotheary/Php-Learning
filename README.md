@@ -53,6 +53,7 @@ php -v
 - [មេរៀនទី ២៤៖ PSR-12 និង Unit Testing ដោយ PHPUnit](01-Beginner/lesson-24-psr12-and-phpunit-testing.md)
 - [មេរៀនទី ២៥៖ Dependency Injection និង Design Patterns](01-Beginner/lesson-25-php-dependency-injection-design-patterns.md)
 - [មេរៀនទី ២៦៖ បង្កើត JSON REST API ដោយ PHP](01-Beginner/lesson-26-php-json-rest-api.md)
+- [មេរៀនទី ២៧៖ Authentication និង Authorization សម្រាប់ API](01-Beginner/lesson-27-api-authentication-authorization.md)
 
 ## ឯកសារយោងផ្លូវការ
 
