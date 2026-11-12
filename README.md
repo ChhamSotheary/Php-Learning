@@ -86,6 +86,7 @@ php -v
 - [មេរៀនទី ៥៧៖ PHP Attributes និង Reflection](01-Beginner/lesson-57-php-attributes-reflection.md)
 - [មេរៀនទី ៥៨៖ Generators និង Iterators ក្នុង PHP](01-Beginner/lesson-58-php-generators-iterators.md)
 - [មេរៀនទី ៥៩៖ សរសេរ PHP CLI Scripts](01-Beginner/lesson-59-php-cli-scripts.md)
+- [មេរៀនទី ៦០៖ PHP Streams និង Stream Filters](01-Beginner/lesson-60-php-streams-filters.md)
 
 ## ឯកសារយោងផ្លូវការ
 
