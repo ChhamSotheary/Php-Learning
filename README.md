@@ -87,6 +87,7 @@ php -v
 - [មេរៀនទី ៥៨៖ Generators និង Iterators ក្នុង PHP](01-Beginner/lesson-58-php-generators-iterators.md)
 - [មេរៀនទី ៥៩៖ សរសេរ PHP CLI Scripts](01-Beginner/lesson-59-php-cli-scripts.md)
 - [មេរៀនទី ៦០៖ PHP Streams និង Stream Filters](01-Beginner/lesson-60-php-streams-filters.md)
+- [មេរៀនទី ៦១៖ PHP Fibers និង Cooperative Concurrency](01-Beginner/lesson-61-php-fibers-concurrency.md)
 
 ## ឯកសារយោងផ្លូវការ
 
