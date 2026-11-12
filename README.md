@@ -66,6 +66,7 @@ php -v
 - [មេរៀនទី ៣៧៖ Role-Based Access Control និងការការពារ Resource ក្នុង PHP](01-Beginner/lesson-37-php-authorization-rbac-resource-access.md)
 - [មេរៀនទី ៣៨៖ Unit Testing ក្នុង PHP ដោយ PHPUnit](01-Beginner/lesson-38-phpunit-unit-testing.md)
 - [មេរៀនទី ៣៩៖ Integration Testing ជាមួយ PHP និង Database](01-Beginner/lesson-39-php-database-integration-testing.md)
+- [មេរៀនទី ៤០៖ Error Handling, Logging និង Debugging ក្នុង PHP](01-Beginner/lesson-40-php-error-logging-debugging.md)
 
 ## ឯកសារយោងផ្លូវការ
 
