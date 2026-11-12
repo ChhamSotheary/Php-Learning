@@ -54,6 +54,7 @@ php -v
 - [មេរៀនទី ២៥៖ Dependency Injection និង Design Patterns](01-Beginner/lesson-25-php-dependency-injection-design-patterns.md)
 - [មេរៀនទី ២៦៖ បង្កើត JSON REST API ដោយ PHP](01-Beginner/lesson-26-php-json-rest-api.md)
 - [មេរៀនទី ២៧៖ Authentication និង Authorization សម្រាប់ API](01-Beginner/lesson-27-api-authentication-authorization.md)
+- [មេរៀនទី ២៨៖ Rate Limiting, Audit Logging និងការការពារ Brute Force](01-Beginner/lesson-28-api-rate-limiting-audit-logging.md)
 
 ## ឯកសារយោងផ្លូវការ
 
