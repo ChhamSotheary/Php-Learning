@@ -118,6 +118,7 @@ php -v
 - [មេរៀនទី ៧៦៖ Laravel Sanctum និង API Token Authentication](02-Laravel/lesson-76-laravel-sanctum-api-tokens.md)
 - [មេរៀនទី ៧៧៖ Laravel Middleware](02-Laravel/lesson-77-laravel-middleware.md)
 - [មេរៀនទី ៧៨៖ Laravel Exception Handling និង Logging](02-Laravel/lesson-78-laravel-exception-handling-logging.md)
+- [មេរៀនទី ៧៩៖ Laravel Views និង Blade Templates](02-Laravel/lesson-79-laravel-views-blade-templates.md)
 
 ## ឯកសារយោងផ្លូវការ
 
