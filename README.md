@@ -116,6 +116,7 @@ php -v
 - [មេរៀនទី ៧៤៖ Eloquent Relationships និង Laravel API Resources](02-Laravel/lesson-74-laravel-eloquent-relationships-api-resources.md)
 - [មេរៀនទី ៧៥៖ Laravel Authentication និង Authorization](02-Laravel/lesson-75-laravel-authentication-authorization.md)
 - [មេរៀនទី ៧៦៖ Laravel Sanctum និង API Token Authentication](02-Laravel/lesson-76-laravel-sanctum-api-tokens.md)
+- [មេរៀនទី ៧៧៖ Laravel Middleware](02-Laravel/lesson-77-laravel-middleware.md)
 
 ## ឯកសារយោងផ្លូវការ
 
