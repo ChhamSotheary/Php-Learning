@@ -126,6 +126,7 @@ php -v
 - [មេរៀនទី ៨៤៖ Laravel Mailables និងការផ្ញើ Email](02-Laravel/lesson-84-laravel-mailables-email.md)
 - [មេរៀនទី ៨៥៖ Laravel Notifications](02-Laravel/lesson-85-laravel-notifications.md)
 - [មេរៀនទី ៨៦៖ Laravel File Storage និងការផ្ទុក Upload](02-Laravel/lesson-86-laravel-file-storage-uploads.md)
+- [មេរៀនទី ៨៧៖ ដាក់ Laravel Application ទៅ Production](02-Laravel/lesson-87-laravel-production-deployment.md)
 
 ## ឯកសារយោងផ្លូវការ
 
