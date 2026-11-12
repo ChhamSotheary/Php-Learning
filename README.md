@@ -65,6 +65,7 @@ php -v
 - [មេរៀនទី ៣៦៖ Password Reset ដែលមានសុវត្ថិភាពក្នុង PHP](01-Beginner/lesson-36-php-secure-password-reset.md)
 - [មេរៀនទី ៣៧៖ Role-Based Access Control និងការការពារ Resource ក្នុង PHP](01-Beginner/lesson-37-php-authorization-rbac-resource-access.md)
 - [មេរៀនទី ៣៨៖ Unit Testing ក្នុង PHP ដោយ PHPUnit](01-Beginner/lesson-38-phpunit-unit-testing.md)
+- [មេរៀនទី ៣៩៖ Integration Testing ជាមួយ PHP និង Database](01-Beginner/lesson-39-php-database-integration-testing.md)
 
 ## ឯកសារយោងផ្លូវការ
 
