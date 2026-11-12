@@ -109,6 +109,7 @@ php -v
 - [មេរៀនទី ៦៧៖ Type Declarations និង Strict Typing ក្នុង PHP](01-Beginner/lesson-67-php-type-declarations-strict-types.md)
 - [មេរៀនទី ៦៨៖ Magic Methods និង Object Serialization ក្នុង PHP](01-Beginner/lesson-68-php-magic-methods-serialization.md)
 - [មេរៀនទី ៦៩៖ HTTP Middleware និង PSR-7/PSR-15 ក្នុង PHP](01-Beginner/lesson-69-php-http-middleware-psr7-psr15.md)
+- [មេរៀនទី ៧០៖ Laravel 13 — រៀបចំកម្មវិធី និងដំណើរការសំណើ](02-Laravel/lesson-70-laravel-installation-request-lifecycle.md)
 
 ## ឯកសារយោងផ្លូវការ
 
