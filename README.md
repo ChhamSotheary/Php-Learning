@@ -112,6 +112,7 @@ php -v
 - [មេរៀនទី ៧០៖ Laravel 13 — រៀបចំកម្មវិធី និងដំណើរការសំណើ](02-Laravel/lesson-70-laravel-installation-request-lifecycle.md)
 - [មេរៀនទី ៧១៖ Laravel Routing និង Controllers](02-Laravel/lesson-71-laravel-routing-controllers.md)
 - [មេរៀនទី ៧២៖ Laravel Request និងការផ្ទៀងផ្ទាត់ទិន្នន័យ](02-Laravel/lesson-72-laravel-requests-validation.md)
+- [មេរៀនទី ៧៣៖ Laravel Database Migrations និង Eloquent ORM](02-Laravel/lesson-73-laravel-migrations-eloquent.md)
 
 ## ឯកសារយោងផ្លូវការ
 
