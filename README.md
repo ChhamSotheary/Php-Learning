@@ -89,6 +89,7 @@ php -v
 - [មេរៀនទី ៦០៖ PHP Streams និង Stream Filters](01-Beginner/lesson-60-php-streams-filters.md)
 - [មេរៀនទី ៦១៖ PHP Fibers និង Cooperative Concurrency](01-Beginner/lesson-61-php-fibers-concurrency.md)
 - [មេរៀនទី ៦២៖ Internationalization និង Localization ក្នុង PHP](01-Beginner/lesson-62-php-internationalization-intl.md)
+- [មេរៀនទី ៦៣៖ Encryption និង PHP Sodium](01-Beginner/lesson-63-php-sodium-encryption.md)
 
 ## ឯកសារយោងផ្លូវការ
 
