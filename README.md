@@ -133,6 +133,7 @@ php -v
 - [មេរៀនទី ៩១៖ Symfony 7.4 LTS — រៀបចំ Project និង Request Flow](03-Symfony/lesson-91-symfony-setup-request-lifecycle.md)
 - [មេរៀនទី ៩២៖ Symfony Routes, Controllers និង HTTP Request/Response](03-Symfony/lesson-92-symfony-routing-controllers.md)
 - [មេរៀនទី ៩៣៖ Symfony Twig Templates និង Layouts](03-Symfony/lesson-93-symfony-twig-templates.md)
+- [មេរៀនទី ៩៤៖ Symfony Forms និង Data Validation](03-Symfony/lesson-94-symfony-forms-validation.md)
 
 ## ឯកសារយោងផ្លូវការ
 
