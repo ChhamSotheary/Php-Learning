@@ -82,6 +82,7 @@ php -v
 - [មេរៀនទី ៥៣៖ Background Jobs និង Queue ក្នុង PHP](01-Beginner/lesson-53-php-background-jobs-queues.md)
 - [មេរៀនទី ៥៤៖ រចនា Database Schema និង Constraints ក្នុង MySQL](01-Beginner/lesson-54-mysql-schema-constraints-indexes.md)
 - [មេរៀនទី ៥៥៖ វាស់វែង និងបង្កើនល្បឿនកូដ PHP](01-Beginner/lesson-55-php-performance-profiling-opcache.md)
+- [មេរៀនទី ៥៦៖ PHP Enums និង Value Objects](01-Beginner/lesson-56-php-enums-value-objects.md)
 
 ## ឯកសារយោងផ្លូវការ
 
