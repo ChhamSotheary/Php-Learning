@@ -58,6 +58,7 @@ php -v
 - [មេរៀនទី ២៩៖ ការការពារ CSRF, XSS និង SQL Injection ក្នុង PHP](01-Beginner/lesson-29-php-csrf-xss-sql-injection.md)
 - [មេរៀនទី ៣០៖ សុវត្ថិភាព Upload ឯកសារនៅក្នុង PHP](01-Beginner/lesson-30-php-secure-file-uploads.md)
 - [មេរៀនទី ៣១៖ សុវត្ថិភាព Session និង Cookie ក្នុង PHP](01-Beginner/lesson-31-php-session-cookie-security.md)
+- [មេរៀនទី ៣២៖ HTTPS និង Security Headers សម្រាប់ PHP](01-Beginner/lesson-32-php-https-security-headers.md)
 
 ## ឯកសារយោងផ្លូវការ
 
