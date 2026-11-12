@@ -131,6 +131,7 @@ php -v
 - [មេរៀនទី ៨៩៖ Laravel HTTP Client សម្រាប់ External APIs](02-Laravel/lesson-89-laravel-http-client-external-apis.md)
 - [មេរៀនទី ៩០៖ Laravel Configuration និង Environment](02-Laravel/lesson-90-laravel-configuration-environment.md)
 - [មេរៀនទី ៩១៖ Symfony 7.4 LTS — រៀបចំ Project និង Request Flow](03-Symfony/lesson-91-symfony-setup-request-lifecycle.md)
+- [មេរៀនទី ៩២៖ Symfony Routes, Controllers និង HTTP Request/Response](03-Symfony/lesson-92-symfony-routing-controllers.md)
 
 ## ឯកសារយោងផ្លូវការ
 
