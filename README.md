@@ -64,6 +64,7 @@ php -v
 - [មេរៀនទី ៣៥៖ ផ្ញើ Email និងផ្ទៀងផ្ទាត់អាសយដ្ឋានក្នុង PHP](01-Beginner/lesson-35-php-email-verification.md)
 - [មេរៀនទី ៣៦៖ Password Reset ដែលមានសុវត្ថិភាពក្នុង PHP](01-Beginner/lesson-36-php-secure-password-reset.md)
 - [មេរៀនទី ៣៧៖ Role-Based Access Control និងការការពារ Resource ក្នុង PHP](01-Beginner/lesson-37-php-authorization-rbac-resource-access.md)
+- [មេរៀនទី ៣៨៖ Unit Testing ក្នុង PHP ដោយ PHPUnit](01-Beginner/lesson-38-phpunit-unit-testing.md)
 
 ## ឯកសារយោងផ្លូវការ
 
