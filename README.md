@@ -84,6 +84,7 @@ php -v
 - [មេរៀនទី ៥៥៖ វាស់វែង និងបង្កើនល្បឿនកូដ PHP](01-Beginner/lesson-55-php-performance-profiling-opcache.md)
 - [មេរៀនទី ៥៦៖ PHP Enums និង Value Objects](01-Beginner/lesson-56-php-enums-value-objects.md)
 - [មេរៀនទី ៥៧៖ PHP Attributes និង Reflection](01-Beginner/lesson-57-php-attributes-reflection.md)
+- [មេរៀនទី ៥៨៖ Generators និង Iterators ក្នុង PHP](01-Beginner/lesson-58-php-generators-iterators.md)
 
 ## ឯកសារយោងផ្លូវការ
 
