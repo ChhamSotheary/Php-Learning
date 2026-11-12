@@ -77,7 +77,7 @@ final class PriceCalculator
     public function total(int $unitPriceInCents, int $quantity): int
     {
         if ($unitPriceInCents < 0 || $quantity < 1) {
-            throw new InvalidArgumentException('Price or quantity is invalid.');
+            throw new \\InvalidArgumentException('Price or quantity is invalid.');
         }
 
         return $unitPriceInCents * $quantity;
@@ -115,7 +115,7 @@ final class PriceCalculatorTest extends TestCase
 }
 ```
 
-ឧទាហរណ៍ខាងលើប្រើ `InvalidArgumentException` របស់ PHP; ក្នុង Namespace ត្រូវបន្ថែម `use InvalidArgumentException;` ឬសរសេរ `\\InvalidArgumentException`។
+ឧទាហរណ៍ប្រើ `\\InvalidArgumentException` ដើម្បីយោង Exception របស់ PHP ពី Namespace `App`។
 
 ដំណើរការ៖
 
