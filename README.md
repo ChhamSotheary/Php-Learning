@@ -75,6 +75,7 @@ php -v
 - [មេរៀនទី ៤៦៖ Deploy PHP Application ទៅ Production](01-Beginner/lesson-46-php-production-deployment.md)
 - [មេរៀនទី ៤៧៖ CI/CD សម្រាប់ PHP ដោយ GitHub Actions](01-Beginner/lesson-47-php-github-actions-ci.md)
 - [មេរៀនទី ៤៨៖ Static Analysis ក្នុង PHP ដោយ PHPStan](01-Beginner/lesson-48-php-static-analysis-phpstan.md)
+- [មេរៀនទី ៤៩៖ សុវត្ថិភាព Dependencies និង Composer Audit](01-Beginner/lesson-49-composer-dependency-security-audit.md)
 
 ## ឯកសារយោងផ្លូវការ
 
