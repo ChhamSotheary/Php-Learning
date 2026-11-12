@@ -93,6 +93,7 @@ php -v
 - [មេរៀនទី ៦៤៖ TOTP Multi-Factor Authentication ក្នុង PHP](01-Beginner/lesson-64-php-totp-mfa.md)
 - [មេរៀនទី ៦៥៖ Closures និង Callable ក្នុង PHP](01-Beginner/lesson-65-php-closures-callables.md)
 - [មេរៀនទី ៦៦៖ Traits និង Composition ក្នុង PHP](01-Beginner/lesson-66-php-traits-composition.md)
+- [មេរៀនទី ៦៧៖ Type Declarations និង Strict Typing ក្នុង PHP](01-Beginner/lesson-67-php-type-declarations-strict-types.md)
 
 ## ឯកសារយោងផ្លូវការ
 
