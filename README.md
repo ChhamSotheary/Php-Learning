@@ -88,6 +88,7 @@ php -v
 - [មេរៀនទី ៥៩៖ សរសេរ PHP CLI Scripts](01-Beginner/lesson-59-php-cli-scripts.md)
 - [មេរៀនទី ៦០៖ PHP Streams និង Stream Filters](01-Beginner/lesson-60-php-streams-filters.md)
 - [មេរៀនទី ៦១៖ PHP Fibers និង Cooperative Concurrency](01-Beginner/lesson-61-php-fibers-concurrency.md)
+- [មេរៀនទី ៦២៖ Internationalization និង Localization ក្នុង PHP](01-Beginner/lesson-62-php-internationalization-intl.md)
 
 ## ឯកសារយោងផ្លូវការ
 
