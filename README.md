@@ -68,6 +68,7 @@ php -v
 - [មេរៀនទី ៣៩៖ Integration Testing ជាមួយ PHP និង Database](01-Beginner/lesson-39-php-database-integration-testing.md)
 - [មេរៀនទី ៤០៖ Error Handling, Logging និង Debugging ក្នុង PHP](01-Beginner/lesson-40-php-error-logging-debugging.md)
 - [មេរៀនទី ៤១៖ Pagination, Filtering និង Sorting សម្រាប់ PHP API](01-Beginner/lesson-41-php-api-pagination-filtering-sorting.md)
+- [មេរៀនទី ៤២៖ API Versioning និង OpenAPI Documentation](01-Beginner/lesson-42-php-api-versioning-openapi.md)
 
 ## ឯកសារយោងផ្លូវការ
 
