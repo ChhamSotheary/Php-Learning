@@ -49,6 +49,7 @@ php -v
 - [មេរៀនទី ២០៖ OOP ក្នុង PHP — Classes, Objects និង Constructor](01-Beginner/lesson-20-php-oop-classes-objects-constructors.md)
 - [មេរៀនទី ២១៖ Inheritance, Abstract Classes និង Interfaces](01-Beginner/lesson-21-php-oop-inheritance-abstract-interfaces.md)
 - [មេរៀនទី ២២៖ Namespaces, Autoloading និង Composer](01-Beginner/lesson-22-php-namespaces-autoloading-composer.md)
+- [មេរៀនទី ២៣៖ Composer Dependencies និង Version Constraints](01-Beginner/lesson-23-composer-dependencies-version-constraints.md)
 
 ## ឯកសារយោងផ្លូវការ
 
