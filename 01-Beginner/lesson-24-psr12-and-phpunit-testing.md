@@ -121,7 +121,7 @@ composer require --dev phpunit/phpunit:^13
 ```json
 {
   "scripts": {
-    "test": "phpunit",
+    "test": "phpunit tests",
     "style": "phpcs --standard=PSR12 src tests"
   },
   "require-dev": {
