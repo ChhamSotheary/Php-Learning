@@ -125,6 +125,7 @@ php -v
 - [មេរៀនទី ៨៣៖ Laravel Queues និង Background Jobs](02-Laravel/lesson-83-laravel-queues-background-jobs.md)
 - [មេរៀនទី ៨៤៖ Laravel Mailables និងការផ្ញើ Email](02-Laravel/lesson-84-laravel-mailables-email.md)
 - [មេរៀនទី ៨៥៖ Laravel Notifications](02-Laravel/lesson-85-laravel-notifications.md)
+- [មេរៀនទី ៨៦៖ Laravel File Storage និងការផ្ទុក Upload](02-Laravel/lesson-86-laravel-file-storage-uploads.md)
 
 ## ឯកសារយោងផ្លូវការ
 
