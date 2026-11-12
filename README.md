@@ -123,6 +123,7 @@ php -v
 - [មេរៀនទី ៨១៖ Laravel Model Factories និង Database Seeders](02-Laravel/lesson-81-laravel-factories-seeders.md)
 - [មេរៀនទី ៨២៖ Laravel Cache និងការកែលម្អល្បឿន](02-Laravel/lesson-82-laravel-cache.md)
 - [មេរៀនទី ៨៣៖ Laravel Queues និង Background Jobs](02-Laravel/lesson-83-laravel-queues-background-jobs.md)
+- [មេរៀនទី ៨៤៖ Laravel Mailables និងការផ្ញើ Email](02-Laravel/lesson-84-laravel-mailables-email.md)
 
 ## ឯកសារយោងផ្លូវការ
 
