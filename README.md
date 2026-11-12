@@ -107,6 +107,7 @@ php -v
 - [មេរៀនទី ៦៥៖ Closures និង Callable ក្នុង PHP](01-Beginner/lesson-65-php-closures-callables.md)
 - [មេរៀនទី ៦៦៖ Traits និង Composition ក្នុង PHP](01-Beginner/lesson-66-php-traits-composition.md)
 - [មេរៀនទី ៦៧៖ Type Declarations និង Strict Typing ក្នុង PHP](01-Beginner/lesson-67-php-type-declarations-strict-types.md)
+- [មេរៀនទី ៦៨៖ Magic Methods និង Object Serialization ក្នុង PHP](01-Beginner/lesson-68-php-magic-methods-serialization.md)
 
 ## ឯកសារយោងផ្លូវការ
 
