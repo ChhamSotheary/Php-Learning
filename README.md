@@ -50,6 +50,7 @@ php -v
 - [មេរៀនទី ២១៖ Inheritance, Abstract Classes និង Interfaces](01-Beginner/lesson-21-php-oop-inheritance-abstract-interfaces.md)
 - [មេរៀនទី ២២៖ Namespaces, Autoloading និង Composer](01-Beginner/lesson-22-php-namespaces-autoloading-composer.md)
 - [មេរៀនទី ២៣៖ Composer Dependencies និង Version Constraints](01-Beginner/lesson-23-composer-dependencies-version-constraints.md)
+- [មេរៀនទី ២៤៖ PSR-12 និង Unit Testing ដោយ PHPUnit](01-Beginner/lesson-24-psr12-and-phpunit-testing.md)
 
 ## ឯកសារយោងផ្លូវការ
 
