@@ -135,6 +135,7 @@ php -v
 - [មេរៀនទី ៩៣៖ Symfony Twig Templates និង Layouts](03-Symfony/lesson-93-symfony-twig-templates.md)
 - [មេរៀនទី ៩៤៖ Symfony Forms និង Data Validation](03-Symfony/lesson-94-symfony-forms-validation.md)
 - [មេរៀនទី ៩៥៖ Symfony Doctrine ORM និង Database Migrations](03-Symfony/lesson-95-symfony-doctrine-orm-migrations.md)
+- [មេរៀនទី ៩៦៖ Symfony Doctrine CRUD និង Repositories](03-Symfony/lesson-96-symfony-doctrine-crud-repositories.md)
 
 ## ឯកសារយោងផ្លូវការ
 
