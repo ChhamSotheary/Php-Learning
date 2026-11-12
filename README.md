@@ -124,6 +124,7 @@ php -v
 - [មេរៀនទី ៨២៖ Laravel Cache និងការកែលម្អល្បឿន](02-Laravel/lesson-82-laravel-cache.md)
 - [មេរៀនទី ៨៣៖ Laravel Queues និង Background Jobs](02-Laravel/lesson-83-laravel-queues-background-jobs.md)
 - [មេរៀនទី ៨៤៖ Laravel Mailables និងការផ្ញើ Email](02-Laravel/lesson-84-laravel-mailables-email.md)
+- [មេរៀនទី ៨៥៖ Laravel Notifications](02-Laravel/lesson-85-laravel-notifications.md)
 
 ## ឯកសារយោងផ្លូវការ
 
