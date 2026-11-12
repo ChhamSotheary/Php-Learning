@@ -46,6 +46,7 @@ php -v
 - [មេរៀនទី ១៧៖ Database Relationships, JOIN និង Pagination](01-Beginner/lesson-17-php-database-relationships-joins-pagination.md)
 - [មេរៀនទី ១៨៖ PDO Transactions និងភាពត្រឹមត្រូវនៃទិន្នន័យ](01-Beginner/lesson-18-php-pdo-transactions.md)
 - [មេរៀនទី ១៩៖ រៀបចំកម្មវិធី CRUD ដោយ PHP និង PDO](01-Beginner/lesson-19-php-crud-forms-and-project-structure.md)
+- [មេរៀនទី ២០៖ OOP ក្នុង PHP — Classes, Objects និង Constructor](01-Beginner/lesson-20-php-oop-classes-objects-constructors.md)
 
 ## ឯកសារយោងផ្លូវការ
 
