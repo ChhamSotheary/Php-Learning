@@ -79,6 +79,7 @@ php -v
 - [មេរៀនទី ៥០៖ Docker Compose សម្រាប់ PHP និង MySQL](01-Beginner/lesson-50-docker-compose-php-mysql.md)
 - [មេរៀនទី ៥១៖ ហៅ External API ដោយ PHP cURL](01-Beginner/lesson-51-php-curl-external-apis.md)
 - [មេរៀនទី ៥២៖ Retry, Backoff និង Circuit Breaker សម្រាប់ PHP API Client](01-Beginner/lesson-52-php-api-retries-backoff-circuit-breaker.md)
+- [មេរៀនទី ៥៣៖ Background Jobs និង Queue ក្នុង PHP](01-Beginner/lesson-53-php-background-jobs-queues.md)
 
 ## ឯកសារយោងផ្លូវការ
 
