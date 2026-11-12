@@ -5,14 +5,14 @@
 បន្ទាប់ពីរៀនចប់ អ្នកនឹងអាច៖
 
 - យល់ពី JSON និងការប្រើវាសម្រាប់ផ្លាស់ប្ដូរទិន្នន័យ។
-- បម្លែង PHP Array និង Object ទៅ JSON ដោយប្រើ \`json_encode()\`។
-- បម្លែង JSON ទៅ PHP Value ដោយប្រើ \`json_decode()\`។
+- បម្លែង PHP Array និង Object ទៅ JSON ដោយប្រើ `json_encode()`។
+- បម្លែង JSON ទៅ PHP Value ដោយប្រើ `json_decode()`។
 - ជ្រើសរើសរវាង PHP Object និង Associative Array ពេល Decode។
-- គ្រប់គ្រង JSON Error ដោយប្រើ \`JSON_THROW_ON_ERROR\`។
+- គ្រប់គ្រង JSON Error ដោយប្រើ `JSON_THROW_ON_ERROR`។
 - ទទួល និងផ្ញើ JSON តាម HTTP API។
 - Validate ទិន្នន័យ JSON និងគិតពីសុវត្ថិភាព។
 
-> តម្រូវការ៖ ឧទាហរណ៍ប្រើ PHP 8.0 ឡើងទៅ។ \`JSON_THROW_ON_ERROR\` មានតាំងពី PHP 7.3 ឡើងទៅ។
+> តម្រូវការ៖ ឧទាហរណ៍ប្រើ PHP 8.0 ឡើងទៅ។ `JSON_THROW_ON_ERROR` មានតាំងពី PHP 7.3 ឡើងទៅ។
 
 ---
 
@@ -22,7 +22,7 @@ JSON (JavaScript Object Notation) ជាទម្រង់អត្ថបទស�
 
 ឧទាហរណ៍ JSON៖
 
-\`\`\`json
+```json
 {
   "name": "Sokha",
   "age": 20,
@@ -30,24 +30,24 @@ JSON (JavaScript Object Notation) ជាទម្រង់អត្ថបទស�
   "courses": ["PHP", "MySQL"],
   "address": null
 }
-\`\`\`
+```
 
 ប្រភេទតម្លៃ JSON ដែលមាន៖
 
-- String៖ \`"hello"\`
-- Number៖ \`25\` ឬ \`3.14\`
-- Boolean៖ \`true\` ឬ \`false\`
-- Null៖ \`null\`
-- Array៖ \`["PHP", "HTML"]\`
-- Object៖ \`{"name": "Sokha"}\`
+- String៖ `"hello"`
+- Number៖ `25` ឬ `3.14`
+- Boolean៖ `true` ឬ `false`
+- Null៖ `null`
+- Array៖ `["PHP", "HTML"]`
+- Object៖ `{"name": "Sokha"}`
 
 JSON មិនគាំទ្រ Comment ឬ Comma នៅចុងធាតុចុងក្រោយទេ។
 
 ## ២. បម្លែង PHP ទៅ JSON ដោយ json_encode()
 
-ប្រើ \`json_encode()\` ដើម្បីបម្លែង PHP Value ទៅជា JSON String៖
+ប្រើ `json_encode()` ដើម្បីបម្លែង PHP Value ទៅជា JSON String៖
 
-\`\`\`php
+```php
 <?php
 $user = [
     'name' => 'Sokha',
@@ -63,13 +63,13 @@ if ($json === false) {
 }
 
 echo $json;
-\`\`\`
+```
 
 លទ្ធផល៖
 
-\`\`\`json
+```json
 {"name":"Sokha","age":20,"is_student":true,"courses":["PHP","MySQL"]}
-\`\`\`
+```
 
 ជាទូទៅ៖
 
@@ -79,26 +79,26 @@ echo $json;
 
 ឧទាហរណ៍ Indexed Array៖
 
-\`\`\`php
+```php
 <?php
 $colors = ['red', 'green', 'blue'];
 
 echo json_encode($colors);
-\`\`\`
+```
 
 លទ្ធផល៖
 
-\`\`\`json
+```json
 ["red","green","blue"]
-\`\`\`
+```
 
 ## ៣. ជម្រើសសំខាន់ៗសម្រាប់ json_encode()
 
 ### ៣.១ បង្ហាញ JSON ឱ្យអានងាយ
 
-ប្រើ \`JSON_PRETTY_PRINT\`៖
+ប្រើ `JSON_PRETTY_PRINT`៖
 
-\`\`\`php
+```php
 <?php
 $data = [
     'name' => 'Sokha',
@@ -106,46 +106,46 @@ $data = [
 ];
 
 echo json_encode($data, JSON_PRETTY_PRINT);
-\`\`\`
+```
 
 ### ៣.២ រក្សាទុកអក្សរ Unicode
 
-PHP អាច Escape អក្សរ Unicode ជា \`\\uXXXX\`។ ប្រើ \`JSON_UNESCAPED_UNICODE\` ដើម្បីរក្សាអក្សរខ្មែរ និងអក្សរផ្សេងៗឱ្យអានបាន៖
+PHP អាច Escape អក្សរ Unicode ជា `\\uXXXX`។ ប្រើ `JSON_UNESCAPED_UNICODE` ដើម្បីរក្សាអក្សរខ្មែរ និងអក្សរផ្សេងៗឱ្យអានបាន៖
 
-\`\`\`php
+```php
 <?php
 $data = ['message' => 'សួស្តី'];
 
 echo json_encode($data, JSON_UNESCAPED_UNICODE);
-\`\`\`
+```
 
 ### ៣.៣ រក្សាទុក Slash
 
-ប្រើ \`JSON_UNESCAPED_SLASHES\` ប្រសិនបើចង់ឱ្យ URL មិនបង្ហាញ Slash ជា Escape៖
+ប្រើ `JSON_UNESCAPED_SLASHES` ប្រសិនបើចង់ឱ្យ URL មិនបង្ហាញ Slash ជា Escape៖
 
-\`\`\`php
+```php
 <?php
 $data = ['website' => 'https://example.com'];
 
 echo json_encode($data, JSON_UNESCAPED_SLASHES);
-\`\`\`
+```
 
-អាចផ្សំ Flags ដោយប្រើសញ្ញា \`|\`៖
+អាចផ្សំ Flags ដោយប្រើសញ្ញា `|`៖
 
-\`\`\`php
+```php
 <?php
 $options = JSON_PRETTY_PRINT
     | JSON_UNESCAPED_UNICODE
     | JSON_UNESCAPED_SLASHES;
 
 echo json_encode($data, $options);
-\`\`\`
+```
 
 ## ៤. បម្លែង JSON ទៅ PHP ដោយ json_decode()
 
-\`json_decode()\` បម្លែង JSON String ទៅ PHP Value។ តាមលំនាំដើម JSON Object ត្រូវបានបម្លែងទៅជា PHP Object៖
+`json_decode()` បម្លែង JSON String ទៅ PHP Value។ តាមលំនាំដើម JSON Object ត្រូវបានបម្លែងទៅជា PHP Object៖
 
-\`\`\`php
+```php
 <?php
 $json = '{"name":"Sokha","age":20}';
 
@@ -153,11 +153,11 @@ $user = json_decode($json);
 
 echo $user->name;
 echo $user->age;
-\`\`\`
+```
 
-ដាក់ \`true\` ជា Argument ទីពីរ ដើម្បីបម្លែង JSON Object ទៅ Associative Array៖
+ដាក់ `true` ជា Argument ទីពីរ ដើម្បីបម្លែង JSON Object ទៅ Associative Array៖
 
-\`\`\`php
+```php
 <?php
 $json = '{"name":"Sokha","age":20}';
 
@@ -165,28 +165,28 @@ $user = json_decode($json, true);
 
 echo $user['name'];
 echo $user['age'];
-\`\`\`
+```
 
 ជ្រើសរើសទម្រង់មួយដែលស្របគ្នានៅក្នុងកម្មវិធី៖
 
-- ប្រើ Object៖ អានតម្លៃដូចជា \`$user->name\`។
-- ប្រើ Associative Array៖ អានតម្លៃដូចជា \`$user['name']\`។
+- ប្រើ Object៖ អានតម្លៃដូចជា `$user->name`។
+- ប្រើ Associative Array៖ អានតម្លៃដូចជា `$user['name']`។
 
 ចំពោះ JSON Array វានឹងក្លាយជា PHP Array៖
 
-\`\`\`php
+```php
 <?php
 $json = '["PHP", "MySQL"]';
 $courses = json_decode($json, true);
 
 echo $courses[0];
-\`\`\`
+```
 
 ## ៥. គ្រប់គ្រង JSON Error
 
-JSON អាចមិនត្រឹមត្រូវ ដូចជា ខ្វះសញ្ញាបិទ Quote ឬមាន Comma លើស។ ប្រើ \`JSON_THROW_ON_ERROR\` ដើម្បីឱ្យ PHP បោះ \`JsonException\` នៅពេល Encode ឬ Decode បរាជ័យ៖
+JSON អាចមិនត្រឹមត្រូវ ដូចជា ខ្វះសញ្ញាបិទ Quote ឬមាន Comma លើស។ ប្រើ `JSON_THROW_ON_ERROR` ដើម្បីឱ្យ PHP បោះ `JsonException` នៅពេល Encode ឬ Decode បរាជ័យ៖
 
-\`\`\`php
+```php
 <?php
 $json = '{"name": "Sokha",}';
 
@@ -203,11 +203,11 @@ try {
     echo 'JSON មិនត្រឹមត្រូវ៖ '
         . htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8');
 }
-\`\`\`
+```
 
-លើកមុនៗ អាចពិនិត្យ \`json_last_error()\` និង \`json_last_error_msg()\` ក្រោយពេលហៅ Encode/Decode។ ប៉ុន្តែសម្រាប់កូដថ្មី \`JSON_THROW_ON_ERROR\` ជួយឱ្យដោះស្រាយកំហុសដោយ \`try/catch\` បានច្បាស់។
+លើកមុនៗ អាចពិនិត្យ `json_last_error()` និង `json_last_error_msg()` ក្រោយពេលហៅ Encode/Decode។ ប៉ុន្តែសម្រាប់កូដថ្មី `JSON_THROW_ON_ERROR` ជួយឱ្យដោះស្រាយកំហុសដោយ `try/catch` បានច្បាស់។
 
-\`\`\`php
+```php
 <?php
 $json = json_encode($data);
 
@@ -215,15 +215,15 @@ if ($json === false) {
     error_log(json_last_error_msg());
     exit('មិនអាចបង្កើតទិន្នន័យបានទេ។');
 }
-\`\`\`
+```
 
-កុំសន្មតថា \`json_encode()\` តែងតែជោគជ័យ។ ឧទាហរណ៍ String ដែលមិនមែនជា UTF-8 ត្រឹមត្រូវអាចធ្វើឱ្យ Encode បរាជ័យ។
+កុំសន្មតថា `json_encode()` តែងតែជោគជ័យ។ ឧទាហរណ៍ String ដែលមិនមែនជា UTF-8 ត្រឹមត្រូវអាចធ្វើឱ្យ Encode បរាជ័យ។
 
 ## ៦. ទទួល JSON ពី HTTP Request
 
-នៅពេល Client ផ្ញើ JSON មក PHP តាម HTTP POST ជាទូទៅ Body មិនស្ថិតក្នុង \`$_POST\` ទេ។ ប្រើ \`php://input\` ដើម្បីអាន Request Body៖
+នៅពេល Client ផ្ញើ JSON មក PHP តាម HTTP POST ជាទូទៅ Body មិនស្ថិតក្នុង `$_POST` ទេ។ ប្រើ `php://input` ដើម្បីអាន Request Body៖
 
-\`\`\`php
+```php
 <?php
 $rawBody = file_get_contents('php://input');
 
@@ -245,11 +245,11 @@ try {
 }
 
 var_dump($data);
-\`\`\`
+```
 
 បន្ទាប់ពី Decode ត្រូវ Validate ទិន្នន័យ៖
 
-\`\`\`php
+```php
 <?php
 if (!is_array($data)) {
     http_response_code(400);
@@ -262,7 +262,7 @@ if (!is_string($name) || trim($name) === '') {
     http_response_code(422);
     exit('ត្រូវការឈ្មោះដែលត្រឹមត្រូវ។');
 }
-\`\`\`
+```
 
 ការដែល JSON Syntax ត្រឹមត្រូវ មិនមានន័យថាទិន្នន័យទាំងអស់មានតម្លៃត្រឹមត្រូវ ឬគួរឱ្យទុកចិត្តទេ។ ត្រូវ Validate ប្រភេទ និងលក្ខខណ្ឌរបស់ Field នីមួយៗ។
 
@@ -270,7 +270,7 @@ if (!is_string($name) || trim($name) === '') {
 
 API ដែលផ្ញើ JSON គួរកំណត់ HTTP Header ត្រឹមត្រូវ៖
 
-\`\`\`php
+```php
 <?php
 header('Content-Type: application/json; charset=utf-8');
 
@@ -296,11 +296,11 @@ try {
 
     echo '{"success":false,"message":"មានបញ្ហាក្នុងប្រព័ន្ធ។"}';
 }
-\`\`\`
+```
 
 ចំណុចសំខាន់ៗ៖
 
-- កំណត់ \`Content-Type: application/json\` មុនបញ្ចេញ Body។
+- កំណត់ `Content-Type: application/json` មុនបញ្ចេញ Body។
 - ប្រើ HTTP Status Code សមស្រប ដូចជា 200, 400, 404, 422 ឬ 500។
 - កុំបញ្ចូល HTML ឬ Warning របស់ PHP ក្នុង JSON Response។
 - កុំបង្ហាញ Stack Trace ឬព័ត៌មានសម្ងាត់ទៅ Client។
@@ -309,14 +309,14 @@ try {
 
 បង្កើត Folder និងឯកសារ៖
 
-\`\`\`text
+```text
 php-json-api/
 └── index.php
-\`\`\`
+```
 
-បង្កើត \`index.php\`៖
+បង្កើត `index.php`៖
 
-\`\`\`php
+```php
 <?php
 declare(strict_types=1);
 
@@ -415,29 +415,29 @@ sendJson(405, [
     'success' => false,
     'message' => 'Method នេះមិនត្រូវបានអនុញ្ញាតទេ។',
 ]);
-\`\`\`
+```
 
-> គម្រោងនេះបង្ហាញរចនាសម្ព័ន្ធ API ប៉ុណ្ណោះ។ ទិន្នន័យមិនត្រូវបានរក្សាទុករវាង Request ទេ ព្រោះ Array \`$tasks\` ត្រូវបានបង្កើតឡើងវិញរាល់ពេល។ កម្មវិធីពិតគួរប្រើ Database និង Authentication តាមតម្រូវការ។
+> គម្រោងនេះបង្ហាញរចនាសម្ព័ន្ធ API ប៉ុណ្ណោះ។ ទិន្នន័យមិនត្រូវបានរក្សាទុករវាង Request ទេ ព្រោះ Array `$tasks` ត្រូវបានបង្កើតឡើងវិញរាល់ពេល។ កម្មវិធីពិតគួរប្រើ Database និង Authentication តាមតម្រូវការ។
 
 ដំណើរការ៖
 
-1. បើក Terminal ក្នុង Folder \`php-json-api\`។
+1. បើក Terminal ក្នុង Folder `php-json-api`។
 2. ដំណើរការ៖
 
-\`\`\`bash
+```bash
 php -S localhost:8000
-\`\`\`
+```
 
-3. សាកល្បង GET ដោយបើក \`http://localhost:8000\` នៅ Browser។
+3. សាកល្បង GET ដោយបើក `http://localhost:8000` នៅ Browser។
 4. សាកល្បង POST ដោយប្រើ cURL៖
 
-\`\`\`bash
+```bash
 curl -X POST http://localhost:8000 ^
   -H "Content-Type: application/json" ^
   -d "{\"title\":\"អានមេរៀន JSON\"}"
-\`\`\`
+```
 
-នៅ macOS ឬ Linux ប្រើ Backslash ជំនួសសញ្ញា \`^\` សម្រាប់បំបែក Command ច្រើនបន្ទាត់ ឬដាក់ Command ទាំងមូលក្នុងមួយបន្ទាត់។
+នៅ macOS ឬ Linux ប្រើ Backslash ជំនួសសញ្ញា `^` សម្រាប់បំបែក Command ច្រើនបន្ទាត់ ឬដាក់ Command ទាំងមូលក្នុងមួយបន្ទាត់។
 
 លទ្ធផល POST គួរមាន Status Code 201 និង JSON ដែលមានកិច្ចការថ្មី។
 
@@ -450,15 +450,15 @@ curl -X POST http://localhost:8000 ^
 5. **Escape តាមបរិបទពេលបង្ហាញ។** JSON encoding មិនជំនួស HTML Escaping ទេ។
 6. **កុំផ្ញើព័ត៌មានសម្ងាត់។** មិនត្រូវបញ្ចេញ Password Hash, Access Token ឬព័ត៌មានឯកជនដោយគ្មានហេតុផល។
 7. **គ្រប់គ្រង Error ដោយសុវត្ថិភាព។** កត់ត្រាព័ត៌មានបច្ចេកទេសក្នុង Log; ផ្ញើសារទូទៅ និង Status Code ទៅ Client។
-8. **កុំសរសេរ JSON ដោយភ្ជាប់ String ដោយដៃ។** ប្រើ \`json_encode()\` ដើម្បី Escape តួអក្សរឱ្យបានត្រឹមត្រូវ។
+8. **កុំសរសេរ JSON ដោយភ្ជាប់ String ដោយដៃ។** ប្រើ `json_encode()` ដើម្បី Escape តួអក្សរឱ្យបានត្រឹមត្រូវ។
 9. **ប្រើ HTTPS សម្រាប់ API ពិតប្រាកដ។** វាការពារទិន្នន័យពេលធ្វើដំណើររវាង Client និង Server។
 
 ## ១០. កំហុសដែលអ្នកចាប់ផ្ដើមរៀនជួបញឹកញាប់
 
-- **ភ្លេច \`true\` ក្នុង \`json_decode()\` ហើយប្រើ Array Syntax៖** លទ្ធផលលំនាំដើមជា Object។
+- **ភ្លេច `true` ក្នុង `json_decode()` ហើយប្រើ Array Syntax៖** លទ្ធផលលំនាំដើមជា Object។
 - **មិនចាប់ JSON Error៖** JSON ខូចអាចធ្វើឱ្យលទ្ធផល Decode មិនដូចការរំពឹង។
 - **គិតថា JSON ត្រឹមត្រូវមានន័យថា Input មានសុវត្ថិភាព៖** ត្រូវ Validate តម្លៃទាំងអស់នៅ Server។
-- **អាន JSON Request ពី \`$_POST\`៖** JSON Body ជាទូទៅត្រូវអានពី \`php://input\`។
+- **អាន JSON Request ពី `$_POST`៖** JSON Body ជាទូទៅត្រូវអានពី `php://input`។
 - **ភ្លេច Content-Type Response៖** Client ប្រហែលមិនដឹងថា Body ជា JSON។
 - **បញ្ចូល Warning ឬ HTML ក្នុង Response៖** វាធ្វើឱ្យ JSON មិនអាច Parse បាន។
 - **បង្ហាញ Exception Message ឬ Stack Trace ទៅ Client៖** អាចបញ្ចេញព័ត៌មានខាងក្នុង។
@@ -474,32 +474,32 @@ curl -X POST http://localhost:8000 ^
 
 បម្លែង JSON String ខាងក្រោមទៅ Associative Array ហើយបង្ហាញឈ្មោះ និង Email៖
 
-\`\`\`json
+```json
 {"name":"Dara","email":"dara@example.com"}
-\`\`\`
+```
 
 ### លំហាត់ទី ៣៖ ចាប់ JSON Exception
 
-សាកល្បង Decode JSON ដែលមិនត្រឹមត្រូវដោយប្រើ \`JSON_THROW_ON_ERROR\` ហើយចាប់ \`JsonException\`។
+សាកល្បង Decode JSON ដែលមិនត្រឹមត្រូវដោយប្រើ `JSON_THROW_ON_ERROR` ហើយចាប់ `JsonException`។
 
 ### លំហាត់ទី ៤៖ Validate API Input
 
-ទទួល JSON Object ដែលមាន Field \`title\`។ ត្រូវពិនិត្យថា៖
+ទទួល JSON Object ដែលមាន Field `title`។ ត្រូវពិនិត្យថា៖
 
 - JSON Syntax ត្រឹមត្រូវ។
 - Root Value ជា Object។
-- \`title\` ជា String មិនទទេ។
+- `title` ជា String មិនទទេ។
 - ចំណងជើងមិនលើស 200 តួអក្សរ។
 
 ### លំហាត់ទី ៥៖ API Response
 
-បង្កើត Response ដែលមាន \`success\`, \`message\`, និង \`data\`។ កំណត់ Content-Type និង Status Code ឱ្យសមស្រប។
+បង្កើត Response ដែលមាន `success`, `message`, និង `data`។ កំណត់ Content-Type និង Status Code ឱ្យសមស្រប។
 
 ## ១២. ចម្លើយគំរូ
 
 ### ចម្លើយលំហាត់ទី ១
 
-\`\`\`php
+```php
 <?php
 $student = [
     'name' => 'ដារ៉ា',
@@ -511,11 +511,11 @@ echo json_encode(
     $student,
     JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
 );
-\`\`\`
+```
 
 ### ចម្លើយលំហាត់ទី ២
 
-\`\`\`php
+```php
 <?php
 $json = '{"name":"Dara","email":"dara@example.com"}';
 
@@ -527,11 +527,11 @@ try {
 } catch (JsonException $e) {
     echo 'JSON មិនត្រឹមត្រូវ។';
 }
-\`\`\`
+```
 
 ### ចម្លើយលំហាត់ទី ៣
 
-\`\`\`php
+```php
 <?php
 $json = '{"name":"Dara",}';
 
@@ -540,11 +540,11 @@ try {
 } catch (JsonException $e) {
     echo 'មិនអាចអាន JSON បានទេ។';
 }
-\`\`\`
+```
 
 ### ចម្លើយលំហាត់ទី ៤
 
-\`\`\`php
+```php
 <?php
 $rawBody = file_get_contents('php://input');
 
@@ -567,11 +567,11 @@ if (
 }
 
 echo 'ទទួលបានចំណងជើងត្រឹមត្រូវ។';
-\`\`\`
+```
 
 ### ចម្លើយលំហាត់ទី ៥
 
-\`\`\`php
+```php
 <?php
 header('Content-Type: application/json; charset=utf-8');
 http_response_code(200);
@@ -584,17 +584,17 @@ echo json_encode(
     ],
     JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE
 );
-\`\`\`
+```
 
 ---
 
 ## សេចក្ដីសង្ខេប
 
 - JSON ជាទម្រង់អត្ថបទសម្រាប់ផ្លាស់ប្ដូរទិន្នន័យ។
-- \`json_encode()\` បម្លែង PHP Value ទៅ JSON String។
-- \`json_decode()\` បម្លែង JSON String ទៅ PHP Object ឬ Array។
-- \`JSON_THROW_ON_ERROR\` ជួយគ្រប់គ្រង JSON Error តាម \`try/catch\`។
-- JSON Request Body អានតាម \`php://input\`។
+- `json_encode()` បម្លែង PHP Value ទៅ JSON String។
+- `json_decode()` បម្លែង JSON String ទៅ PHP Object ឬ Array។
+- `JSON_THROW_ON_ERROR` ជួយគ្រប់គ្រង JSON Error តាម `try/catch`។
+- JSON Request Body អានតាម `php://input`។
 - API Response គួរកំណត់ Content-Type, Status Code និង Validate ទិន្នន័យ។
 - JSON មិនធ្វើឱ្យទិន្នន័យមានសុវត្ថិភាពដោយស្វ័យប្រវត្តិទេ; ត្រូវ Validate និងការពារទិន្នន័យឯកជន។
 
