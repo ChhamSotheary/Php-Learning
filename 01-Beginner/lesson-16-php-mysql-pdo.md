@@ -427,7 +427,7 @@ CREATE TABLE books (
 $email = trim($_GET['email'] ?? '');
 
 $stmt = $pdo->prepare(
-    'SELECT id, title, author FROM students WHERE email = :email'
+    'SELECT id, name, email FROM students WHERE email = :email'
 );
 $stmt->execute(['email' => $email]);
 
