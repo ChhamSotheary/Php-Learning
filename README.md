@@ -78,6 +78,7 @@ php -v
 - [មេរៀនទី ៤៩៖ សុវត្ថិភាព Dependencies និង Composer Audit](01-Beginner/lesson-49-composer-dependency-security-audit.md)
 - [មេរៀនទី ៥០៖ Docker Compose សម្រាប់ PHP និង MySQL](01-Beginner/lesson-50-docker-compose-php-mysql.md)
 - [មេរៀនទី ៥១៖ ហៅ External API ដោយ PHP cURL](01-Beginner/lesson-51-php-curl-external-apis.md)
+- [មេរៀនទី ៥២៖ Retry, Backoff និង Circuit Breaker សម្រាប់ PHP API Client](01-Beginner/lesson-52-php-api-retries-backoff-circuit-breaker.md)
 
 ## ឯកសារយោងផ្លូវការ
 
