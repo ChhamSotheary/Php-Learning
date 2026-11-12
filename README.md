@@ -134,6 +134,7 @@ php -v
 - [មេរៀនទី ៩២៖ Symfony Routes, Controllers និង HTTP Request/Response](03-Symfony/lesson-92-symfony-routing-controllers.md)
 - [មេរៀនទី ៩៣៖ Symfony Twig Templates និង Layouts](03-Symfony/lesson-93-symfony-twig-templates.md)
 - [មេរៀនទី ៩៤៖ Symfony Forms និង Data Validation](03-Symfony/lesson-94-symfony-forms-validation.md)
+- [មេរៀនទី ៩៥៖ Symfony Doctrine ORM និង Database Migrations](03-Symfony/lesson-95-symfony-doctrine-orm-migrations.md)
 
 ## ឯកសារយោងផ្លូវការ
 
