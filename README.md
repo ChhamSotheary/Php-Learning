@@ -77,6 +77,7 @@ php -v
 - [មេរៀនទី ៤៨៖ Static Analysis ក្នុង PHP ដោយ PHPStan](01-Beginner/lesson-48-php-static-analysis-phpstan.md)
 - [មេរៀនទី ៤៩៖ សុវត្ថិភាព Dependencies និង Composer Audit](01-Beginner/lesson-49-composer-dependency-security-audit.md)
 - [មេរៀនទី ៥០៖ Docker Compose សម្រាប់ PHP និង MySQL](01-Beginner/lesson-50-docker-compose-php-mysql.md)
+- [មេរៀនទី ៥១៖ ហៅ External API ដោយ PHP cURL](01-Beginner/lesson-51-php-curl-external-apis.md)
 
 ## ឯកសារយោងផ្លូវការ
 
