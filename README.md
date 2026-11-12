@@ -51,6 +51,7 @@ php -v
 - [មេរៀនទី ២២៖ Namespaces, Autoloading និង Composer](01-Beginner/lesson-22-php-namespaces-autoloading-composer.md)
 - [មេរៀនទី ២៣៖ Composer Dependencies និង Version Constraints](01-Beginner/lesson-23-composer-dependencies-version-constraints.md)
 - [មេរៀនទី ២៤៖ PSR-12 និង Unit Testing ដោយ PHPUnit](01-Beginner/lesson-24-psr12-and-phpunit-testing.md)
+- [មេរៀនទី ២៥៖ Dependency Injection និង Design Patterns](01-Beginner/lesson-25-php-dependency-injection-design-patterns.md)
 
 ## ឯកសារយោងផ្លូវការ
 
