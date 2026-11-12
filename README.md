@@ -76,6 +76,7 @@ php -v
 - [មេរៀនទី ៤៧៖ CI/CD សម្រាប់ PHP ដោយ GitHub Actions](01-Beginner/lesson-47-php-github-actions-ci.md)
 - [មេរៀនទី ៤៨៖ Static Analysis ក្នុង PHP ដោយ PHPStan](01-Beginner/lesson-48-php-static-analysis-phpstan.md)
 - [មេរៀនទី ៤៩៖ សុវត្ថិភាព Dependencies និង Composer Audit](01-Beginner/lesson-49-composer-dependency-security-audit.md)
+- [មេរៀនទី ៥០៖ Docker Compose សម្រាប់ PHP និង MySQL](01-Beginner/lesson-50-docker-compose-php-mysql.md)
 
 ## ឯកសារយោងផ្លូវការ
 
