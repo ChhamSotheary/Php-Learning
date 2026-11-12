@@ -130,6 +130,7 @@ php -v
 - [មេរៀនទី ៨៨៖ Laravel Events និង Listeners](02-Laravel/lesson-88-laravel-events-listeners.md)
 - [មេរៀនទី ៨៩៖ Laravel HTTP Client សម្រាប់ External APIs](02-Laravel/lesson-89-laravel-http-client-external-apis.md)
 - [មេរៀនទី ៩០៖ Laravel Configuration និង Environment](02-Laravel/lesson-90-laravel-configuration-environment.md)
+- [មេរៀនទី ៩១៖ Symfony 7.4 LTS — រៀបចំ Project និង Request Flow](03-Symfony/lesson-91-symfony-setup-request-lifecycle.md)
 
 ## ឯកសារយោងផ្លូវការ
 
