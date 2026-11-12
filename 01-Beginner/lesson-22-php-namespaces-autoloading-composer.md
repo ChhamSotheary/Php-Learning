@@ -280,10 +280,10 @@ StudentDirectory ប្រើ use ដើម្បី Import Class Student។ Typ
 <?php
 declare(strict_types=1);
 
-require dirname(__DIR__) . '/vendor/autoload.php';
-
 use LearningPhp\Domain\Student;
 use LearningPhp\Service\StudentDirectory;
+
+require dirname(__DIR__) . '/vendor/autoload.php';
 
 $directory = new StudentDirectory();
 
