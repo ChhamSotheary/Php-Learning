@@ -61,6 +61,7 @@ php -v
 - [មេរៀនទី ៣២៖ HTTPS និង Security Headers សម្រាប់ PHP](01-Beginner/lesson-32-php-https-security-headers.md)
 - [មេរៀនទី ៣៣៖ Configuration និង Secrets ក្នុង PHP](01-Beginner/lesson-33-php-configuration-secrets.md)
 - [មេរៀនទី ៣៤៖ ការផ្ទៀងផ្ទាត់ទិន្នន័យ និង Input ក្នុង PHP](01-Beginner/lesson-34-php-input-validation.md)
+- [មេរៀនទី ៣៥៖ ផ្ញើ Email និងផ្ទៀងផ្ទាត់អាសយដ្ឋានក្នុង PHP](01-Beginner/lesson-35-php-email-verification.md)
 
 ## ឯកសារយោងផ្លូវការ
 
