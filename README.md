@@ -156,6 +156,7 @@ php -v
 - [មេរៀនទី ១១៤៖ Portfolio Project ៤ — PHP Appointment Booking System](04-Portfolio-Projects/lesson-114-portfolio-project-04-php-appointment-booking-system.md)
 - [មេរៀនទី ១១៥៖ Portfolio Project ៥ — Secure PHP Storefront និង Order Management](04-Portfolio-Projects/lesson-115-portfolio-project-05-secure-php-storefront.md)
 - [មេរៀនទី ១១៦៖ Portfolio Project ៦ — PHP URL Shortener](04-Portfolio-Projects/lesson-116-portfolio-project-06-php-url-shortener.md)
+- [មេរៀនទី ១១៧៖ Portfolio Project ៧ — PHP Composer Package](04-Portfolio-Projects/lesson-117-portfolio-project-07-php-composer-package.md)
 
 ## ឯកសារយោងផ្លូវការ
 
