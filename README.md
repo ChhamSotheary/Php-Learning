@@ -143,6 +143,7 @@ php -v
 - [មេរៀនទី ១០១៖ Symfony Services និង Dependency Injection Container](03-Symfony/lesson-101-symfony-services-dependency-injection.md)
 - [មេរៀនទី ១០២៖ Symfony Events, Listeners និង Subscribers](03-Symfony/lesson-102-symfony-events-listeners-subscribers.md)
 - [មេរៀនទី ១០៣៖ Symfony Messenger និង Background Queues](03-Symfony/lesson-103-symfony-messenger-background-queues.md)
+- [មេរៀនទី ១០៤៖ Symfony Mailer និងការផ្ញើ Email](03-Symfony/lesson-104-symfony-mailer-email.md)
 
 ## ឯកសារយោងផ្លូវការ
 
