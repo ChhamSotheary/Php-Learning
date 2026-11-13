@@ -139,6 +139,7 @@ php -v
 - [មេរៀនទី ៩៧៖ Symfony Doctrine Relationships និង Associations](03-Symfony/lesson-97-symfony-doctrine-relationships.md)
 - [មេរៀនទី ៩៨៖ Symfony Security និង User Authentication](03-Symfony/lesson-98-symfony-security-authentication.md)
 - [មេរៀនទី ៩៩៖ Symfony Authorization, Roles និង Access Control](03-Symfony/lesson-99-symfony-authorization-roles-access-control.md)
+- [មេរៀនទី ១០០៖ Symfony Security Voters សម្រាប់ Object Permissions](03-Symfony/lesson-100-symfony-security-voters.md)
 
 ## ឯកសារយោងផ្លូវការ
 
