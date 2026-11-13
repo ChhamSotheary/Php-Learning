@@ -137,6 +137,7 @@ php -v
 - [មេរៀនទី ៩៥៖ Symfony Doctrine ORM និង Database Migrations](03-Symfony/lesson-95-symfony-doctrine-orm-migrations.md)
 - [មេរៀនទី ៩៦៖ Symfony Doctrine CRUD និង Repositories](03-Symfony/lesson-96-symfony-doctrine-crud-repositories.md)
 - [មេរៀនទី ៩៧៖ Symfony Doctrine Relationships និង Associations](03-Symfony/lesson-97-symfony-doctrine-relationships.md)
+- [មេរៀនទី ៩៨៖ Symfony Security និង User Authentication](03-Symfony/lesson-98-symfony-security-authentication.md)
 
 ## ឯកសារយោងផ្លូវការ
 
