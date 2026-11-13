@@ -151,6 +151,7 @@ php -v
 - [មេរៀនទី ១០៩៖ Symfony Configuration, Environments និង Secrets](03-Symfony/lesson-109-symfony-configuration-environments-secrets.md)
 - [មេរៀនទី ១១០៖ Symfony Production Deployment និង Release Checklist](03-Symfony/lesson-110-symfony-production-deployment.md)
 - [មេរៀនទី ១១១៖ Portfolio Project ១ — Secure PHP Task Manager](04-Portfolio-Projects/lesson-111-portfolio-project-01-secure-php-task-manager.md)
+- [មេរៀនទី ១១២៖ Portfolio Project ២ — PHP Inventory REST API](04-Portfolio-Projects/lesson-112-portfolio-project-02-php-inventory-rest-api.md)
 
 ## ឯកសារយោងផ្លូវការ
 
