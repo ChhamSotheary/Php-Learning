@@ -150,6 +150,7 @@ php -v
 - [មេរៀនទី ១០៨៖ Symfony Logging និង Monolog](03-Symfony/lesson-108-symfony-logging-monolog.md)
 - [មេរៀនទី ១០៩៖ Symfony Configuration, Environments និង Secrets](03-Symfony/lesson-109-symfony-configuration-environments-secrets.md)
 - [មេរៀនទី ១១០៖ Symfony Production Deployment និង Release Checklist](03-Symfony/lesson-110-symfony-production-deployment.md)
+- [មេរៀនទី ១១១៖ Portfolio Project ១ — Secure PHP Task Manager](04-Portfolio-Projects/lesson-111-portfolio-project-01-secure-php-task-manager.md)
 
 ## ឯកសារយោងផ្លូវការ
 
