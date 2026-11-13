@@ -17,12 +17,12 @@
 
 ## ២. បង្កើត Service
 
-បង្កើត \`src/Service/PriceCalculator.php\`៖
+បង្កើត `src/Service/PriceCalculator.php`៖
 
-\`\`\`php
+```php
 <?php
 
-namespace App\\Service;
+namespace App\Service;
 
 class PriceCalculator
 {
@@ -36,7 +36,7 @@ class PriceCalculator
         return array_sum($pricesInCents);
     }
 }
-\`\`\`
+```
 
 Class នេះធ្វើការគណនាតែមួយប្រភេទ។ Controller មិនចាំបាច់ស្គាល់ថាតើការគណនាត្រូវបានធ្វើដូចម្ដេចទេ។
 
@@ -44,14 +44,14 @@ Class នេះធ្វើការគណនាតែមួយប្រភេ�
 
 Symfony អាចបញ្ជូន service តាម type hint របស់ method argument៖
 
-\`\`\`php
+```php
 <?php
 
-namespace App\\Controller;
+namespace App\Controller;
 
-use App\\Service\\PriceCalculator;
-use Symfony\\Component\\HttpFoundation\\Response;
-use Symfony\\Component\\Routing\\Attribute\\Route;
+use App\Service\PriceCalculator;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Attribute\Route;
 
 class OrderController
 {
@@ -63,20 +63,20 @@ class OrderController
         return new Response('សរុប: '.number_format($totalInCents / 100, 2));
     }
 }
-\`\`\`
+```
 
-Controller មិនបង្កើត \`PriceCalculator\` ដោយប្រើ \`new\` ទេ។ Container ផ្ដល់វាឱ្យ ព្រោះ class ស្ថិតក្នុង namespace ដែល project កំណត់ឱ្យ auto-discover។
+Controller មិនបង្កើត `PriceCalculator` ដោយប្រើ `new` ទេ។ Container ផ្ដល់វាឱ្យ ព្រោះ class ស្ថិតក្នុង namespace ដែល project កំណត់ឱ្យ auto-discover។
 
 ## ៤. ចាក់ Dependency តាម Constructor
 
 បើ Service មួយត្រូវការ Service ផ្សេង សូមកំណត់តាម constructor៖
 
-\`\`\`php
+```php
 <?php
 
-namespace App\\Service;
+namespace App\Service;
 
-use Psr\\Log\\LoggerInterface;
+use Psr\Log\LoggerInterface;
 
 class OrderProcessor
 {
@@ -95,27 +95,27 @@ class OrderProcessor
         return $total;
     }
 }
-\`\`\`
+```
 
-ឥឡូវ Container អាចបង្កើត \`OrderProcessor\`, \`PriceCalculator\` និង logger តាម dependency graph។ កុំសរសេរ business logic ទាំងមូលក្នុង Controller ព្រោះវាធ្វើឱ្យពិបាកប្រើឡើងវិញ និងសាកល្បង។
+ឥឡូវ Container អាចបង្កើត `OrderProcessor`, `PriceCalculator` និង logger តាម dependency graph។ កុំសរសេរ business logic ទាំងមូលក្នុង Controller ព្រោះវាធ្វើឱ្យពិបាកប្រើឡើងវិញ និងសាកល្បង។
 
 ## ៥. Autowiring និង Autoconfiguration
 
-Project Symfony ថ្មីជាទូទៅមាន \`config/services.yaml\` ដែលប្រហាក់ប្រហែល៖
+Project Symfony ថ្មីជាទូទៅមាន `config/services.yaml` ដែលប្រហាក់ប្រហែល៖
 
-\`\`\`yaml
+```yaml
 services:
     _defaults:
         autowire: true
         autoconfigure: true
 
-    App\\:
+    App\:
         resource: '../src/'
-\`\`\`
+```
 
-- \`autowire: true\` អនុញ្ញាតឱ្យ Container ជ្រើស service តាម type hint។
-- \`autoconfigure: true\` អនុញ្ញាតឱ្យ Symfony ដាក់ tags ទូទៅដោយស្វ័យប្រវត្តិ ដូចជា command ឬ event subscriber។
-- \`resource\` ធ្វើឱ្យ classes ក្នុង \`src/\` អាចប្រើជាសេវាកម្ម។
+- `autowire: true` អនុញ្ញាតឱ្យ Container ជ្រើស service តាម type hint។
+- `autoconfigure: true` អនុញ្ញាតឱ្យ Symfony ដាក់ tags ទូទៅដោយស្វ័យប្រវត្តិ ដូចជា command ឬ event subscriber។
+- `resource` ធ្វើឱ្យ classes ក្នុង `src/` អាចប្រើជាសេវាកម្ម។
 
 ប្រសិនបើ constructor ត្រូវការ scalar ដូចជា string API URL, type hint មិនគ្រប់គ្រាន់ឱ្យ Container ដឹងតម្លៃទេ។ ប្រើ configuration parameter ឬ bind value តាម project config ហើយកុំ hard-code secrets ក្នុង PHP។
 
@@ -123,36 +123,36 @@ services:
 
 មើល interfaces/services ដែលអាច autowire បាន៖
 
-\`\`\`bash
+```bash
 php bin/console debug:autowiring
-\`\`\`
+```
 
 ស្វែងរក service ដែលបានចុះឈ្មោះ៖
 
-\`\`\`bash
+```bash
 php bin/console debug:container
-\`\`\`
+```
 
 មើល config ជាក់លាក់៖
 
-\`\`\`bash
-php bin/console debug:container App\\Service\\PriceCalculator
-\`\`\`
+```bash
+php bin/console debug:container App\Service\PriceCalculator
+```
 
 ## កំហុសដែលជួបញឹកញាប់
 
 - **Cannot autowire service**៖ ពិនិត្យ type hint, namespace និង service configuration។
 - **Interface មួយមាន implementation ច្រើន**៖ Container មិនដឹងថាត្រូវជ្រើសមួយណា; កំណត់ alias។
 - **Inject scalar តាម type hint ដោយរំពឹងថា container ដឹងតម្លៃ**៖ កំណត់ parameter/bind ឱ្យច្បាស់។
-- **Class បង្កើត dependencies ដោយ \`new\`**៖ វាភ្ជាប់ class តឹងពេក; inject dependencies តាម constructor។
+- **Class បង្កើត dependencies ដោយ `new`**៖ វាភ្ជាប់ class តឹងពេក; inject dependencies តាម constructor។
 - **ចាក់ Container ទាំងមូលទៅ Service**៖ ចាក់ dependency ជាក់លាក់ដែលត្រូវការប៉ុណ្ណោះ។
 
 ## លំហាត់
 
-1. បន្ថែម method \`average()\` ទៅ \`PriceCalculator\` ដោយការពារករណី array ទទេ។
-2. បង្កើត \`OrderProcessor\` ដែល inject \`PriceCalculator\` និង \`LoggerInterface\`។
+1. បន្ថែម method `average()` ទៅ `PriceCalculator` ដោយការពារករណី array ទទេ។
+2. បង្កើត `OrderProcessor` ដែល inject `PriceCalculator` និង `LoggerInterface`។
 3. ប្រើ CLI ដើម្បីពិនិត្យថា service ទាំងពីរត្រូវបានរកឃើញ។
-4. បង្កើត interface \`TaxCalculatorInterface\` និង implementation មួយ ហើយកំណត់ alias ក្នុង Container។
+4. បង្កើត interface `TaxCalculatorInterface` និង implementation មួយ ហើយកំណត់ alias ក្នុង Container។
 5. សរសេរពន្យល់ថា DI ធ្វើឱ្យការសាកល្បង class ងាយជាងដូចម្ដេច។
 
 ## សំណួរត្រួតពិនិត្យ
