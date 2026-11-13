@@ -149,6 +149,7 @@ php -v
 - [មេរៀនទី ១០៧៖ Symfony Cache និង Cache Pools](03-Symfony/lesson-107-symfony-cache-pools-invalidation.md)
 - [មេរៀនទី ១០៨៖ Symfony Logging និង Monolog](03-Symfony/lesson-108-symfony-logging-monolog.md)
 - [មេរៀនទី ១០៩៖ Symfony Configuration, Environments និង Secrets](03-Symfony/lesson-109-symfony-configuration-environments-secrets.md)
+- [មេរៀនទី ១១០៖ Symfony Production Deployment និង Release Checklist](03-Symfony/lesson-110-symfony-production-deployment.md)
 
 ## ឯកសារយោងផ្លូវការ
 
