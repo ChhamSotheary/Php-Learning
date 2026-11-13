@@ -202,7 +202,7 @@ README គួរមានតម្រូវការ PHP extensions, Composer in
 
 1. ហេតុអ្វី cart មិនគួរជឿ price ដែលរក្សាទុកក្នុង session?
 2. តើ order item snapshot ការពារប្រវត្តិទិញយ៉ាងដូចម្តេច?
-3. តើ transaction និង conditional stock update ជួយបង្ការការលក់លើស stockយ៉ាងដូចម្តេច?
+3. តើ transaction និង conditional stock update ជួយបង្ការការលក់លើស stock យ៉ាងដូចម្តេច?
 4. Idempotency key ដោះស្រាយបញ្ហាអ្វី?
 5. ហេតុអ្វីមិនគួររក្សាទុក card number និង CVV ក្នុង database ផ្ទាល់ខ្លួន?
 
