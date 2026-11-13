@@ -13,55 +13,55 @@
 
 **Authentication** ឆ្លើយថា “អ្នកប្រើនេះជានរណា?” ឧទាហរណ៍ ពិនិត្យ email និង password ហើយបង្កើត session ដែលមាន user ចូលប្រើ។
 
-**Authorization** ឆ្លើយថា “អ្នកប្រើនេះអាចធ្វើអ្វីបាន?” ឧទាហរណ៍ អនុញ្ញាតតែអ្នកគ្រប់គ្រងចូលទៅកាន់ \`/admin\`។ មេរៀននេះផ្ដោតលើ Authentication; ការកំណត់សិទ្ធិលម្អិតនឹងរៀនបន្ត។
+**Authorization** ឆ្លើយថា “អ្នកប្រើនេះអាចធ្វើអ្វីបាន?” ឧទាហរណ៍ អនុញ្ញាតតែអ្នកគ្រប់គ្រងចូលទៅកាន់ `/admin`។ មេរៀននេះផ្ដោតលើ Authentication; ការកំណត់សិទ្ធិលម្អិតនឹងរៀនបន្ត។
 
 ## ២. ដំឡើង និងបង្កើត User
 
 ដំឡើង SecurityBundle ប្រសិនបើមិនទាន់មាន៖
 
-\`\`\`bash
+```bash
 composer require symfony/security-bundle
 composer require --dev symfony/maker-bundle
-\`\`\`
+```
 
 បង្កើត User ដោយ Maker៖
 
-\`\`\`bash
+```bash
 php bin/console make:user
-\`\`\`
+```
 
-ជ្រើស \`User\`, រក្សាទុកក្នុង Doctrine ប្រសិនបើកម្មវិធីប្រើ database, កំណត់ \`email\` ជា identifier ហើយជ្រើសថាត្រូវប្រើ password hashing។ Maker បង្កើត User entity/repository និងធ្វើបច្ចុប្បន្នភាព Security configuration។
+ជ្រើស `User`, រក្សាទុកក្នុង Doctrine ប្រសិនបើកម្មវិធីប្រើ database, កំណត់ `email` ជា identifier ហើយជ្រើសថាត្រូវប្រើ password hashing។ Maker បង្កើត User entity/repository និងធ្វើបច្ចុប្បន្នភាព Security configuration។
 
 បន្ទាប់មកបង្កើត និងពិនិត្យ migration ដូចមេរៀន Doctrine៖
 
-\`\`\`bash
+```bash
 php bin/console make:migration
 php bin/console doctrine:migrations:migrate
-\`\`\`
+```
 
-User ត្រូវ implement \`UserInterface\`; បើកម្មវិធីប្រើ password វាក៏ implement \`PasswordAuthenticatedUserInterface\` ផងដែរ។ User identifier ជាទូទៅជា email ឬ username ដែលមិនស្ទួនក្នុង database។
+User ត្រូវ implement `UserInterface`; បើកម្មវិធីប្រើ password វាក៏ implement `PasswordAuthenticatedUserInterface` ផងដែរ។ User identifier ជាទូទៅជា email ឬ username ដែលមិនស្ទួនក្នុង database។
 
 ## ៣. កំណត់ Password Hasher
 
-ក្នុង \`config/packages/security.yaml\` ត្រូវមានការកំណត់ hasher សម្រាប់ user ដែលផ្ទៀងផ្ទាត់ដោយ password៖
+ក្នុង `config/packages/security.yaml` ត្រូវមានការកំណត់ hasher សម្រាប់ user ដែលផ្ទៀងផ្ទាត់ដោយ password៖
 
-\`\`\`yaml
+```yaml
 security:
     password_hashers:
-        Symfony\\Component\\Security\\Core\\User\\PasswordAuthenticatedUserInterface: 'auto'
-\`\`\`
+        Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface: 'auto'
+```
 
-មិនត្រូវរក្សាទុក password ដើម (plain text) ឬ encrypt ដើម្បីអាច decrypt ត្រឡប់វិញទេ។ ពេលចុះឈ្មោះ ត្រូវប្រើ \`UserPasswordHasherInterface\` ដើម្បី hash password មុនរក្សាទុក។ ពេល login Symfony ប្រៀបធៀប password ដែលបញ្ចូលនឹង hash ដែលបានរក្សាទុក។
+មិនត្រូវរក្សាទុក password ដើម (plain text) ឬ encrypt ដើម្បីអាច decrypt ត្រឡប់វិញទេ។ ពេលចុះឈ្មោះ ត្រូវប្រើ `UserPasswordHasherInterface` ដើម្បី hash password មុនរក្សាទុក។ ពេល login Symfony ប្រៀបធៀប password ដែលបញ្ចូលនឹង hash ដែលបានរក្សាទុក។
 
 ឧទាហរណ៍ service សម្រាប់បង្កើត user៖
 
-\`\`\`php
+```php
 <?php
 
-namespace App\\Service;
+namespace App\Service;
 
-use App\\Entity\\User;
-use Symfony\\Component\\PasswordHasher\\Hasher\\UserPasswordHasherInterface;
+use App\Entity\User;
+use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 
 class UserRegistration
 {
@@ -77,7 +77,7 @@ class UserRegistration
         );
     }
 }
-\`\`\`
+```
 
 ឧទាហរណ៍នេះបង្ហាញតែការបង្កើត hash។ កុំប្រើ plain password ជា database column ឬបង្ហាញវាក្នុង logs។
 
@@ -87,15 +87,15 @@ class UserRegistration
 - **Firewall** ជ្រើសរើសយន្តការផ្ទៀងផ្ទាត់សម្រាប់ request ដែលចូលមក។
 - **Password Hasher** បង្កើត និងផ្ទៀងផ្ទាត់ password hash។
 
-MakerBundle ជាទូទៅកំណត់ entity provider ដែលស្វែងរកតាម email។ ក្នុង \`security.yaml\` project របស់អ្នក សូមពិនិត្យថា provider ឈ្មោះដែល firewall ប្រើគឺត្រូវគ្នា។ Configuration អាចខុសគ្នាតាម project និង version; រក្សាផ្នែក environment firewall ដែល Symfony បានបង្កើត ហើយបន្ថែម login configuration តាម project នោះ។
+MakerBundle ជាទូទៅកំណត់ entity provider ដែលស្វែងរកតាម email។ ក្នុង `security.yaml` project របស់អ្នក សូមពិនិត្យថា provider ឈ្មោះដែល firewall ប្រើគឺត្រូវគ្នា។ Configuration អាចខុសគ្នាតាម project និង version; រក្សាផ្នែក environment firewall ដែល Symfony បានបង្កើត ហើយបន្ថែម login configuration តាម project នោះ។
 
 ## ៥. បង្កើត Login Form
 
 អាចប្រើ MakerBundle បង្កើត authenticator៖
 
-\`\`\`bash
+```bash
 php bin/console make:security:form-login
-\`\`\`
+```
 
 Maker សួរឈ្មោះ Controller និង route ហើយបង្កើត Controller, login template និង configuration ដែលត្រូវការ។ ឧទាហរណ៍ login template ត្រូវ render form error និង CSRF token តាមការបង្កើតរបស់ Maker។ ពិនិត្យ route name និង template location ដែលវាបង្កើត ហើយសាកល្បងក្នុង browser។
 
@@ -112,7 +112,7 @@ Maker សួរឈ្មោះ Controller និង route ហើយបង្ក�
 
 ក្នុង firewall អាចកំណត់ logout path ដែល login generator បានបង្កើត ឬប្រើ route ផ្ទាល់ខ្លួន៖
 
-\`\`\`yaml
+```yaml
 security:
     firewalls:
         main:
@@ -120,18 +120,18 @@ security:
             logout:
                 path: app_logout
                 # target: app_home
-\`\`\`
+```
 
-Route name ក្នុង \`path\` ត្រូវមានពិត។ កុំធ្វើ logout តាម GET ដែលអាចត្រូវបានបើកដោយ link ឬ third-party content; ប្រើ flow ដែល framework រៀបចំ និងការពារ CSRF តាម config របស់អ្នក។
+Route name ក្នុង `path` ត្រូវមានពិត។ កុំធ្វើ logout តាម GET ដែលអាចត្រូវបានបើកដោយ link ឬ third-party content; ប្រើ flow ដែល framework រៀបចំ និងការពារ CSRF តាម config របស់អ្នក។
 
 ## ៧. សាកល្បង និង Debug
 
 ពិនិត្យ route និង configuration៖
 
-\`\`\`bash
+```bash
 php bin/console debug:router
 php bin/console debug:config security
-\`\`\`
+```
 
 សាកល្បង registration/login ជាមួយ test account ក្នុង development database៖
 
@@ -146,14 +146,14 @@ php bin/console debug:config security
 - **User មិនអាច login**៖ ពិនិត្យថា identifier ដែល User Provider ប្រើត្រូវនឹង property របស់ User។
 - **Password មិនអាចផ្ទៀងផ្ទាត់**៖ ធានាថាបាន hash ដោយ hasher របស់ Symfony មុនរក្សាទុក។
 - **ភ្លេច migration**៖ User table មិនមានក្នុង database រហូតដល់ migration បានអនុវត្ត។
-- **Firewall គ្មាន provider ឬ authenticator ត្រឹមត្រូវ**៖ ពិនិត្យ security config របស់ project និងលទ្ធផល \`debug:config security\`។
+- **Firewall គ្មាន provider ឬ authenticator ត្រឹមត្រូវ**៖ ពិនិត្យ security config របស់ project និងលទ្ធផល `debug:config security`។
 - **បង្ហាញព័ត៌មាន login លម្អិតពេក**៖ ប្រើសារបរាជ័យទូទៅ ដើម្បីកុំឱ្យអ្នកវាយប្រហារស្វែងរក email ដែលមានគណនី។
 
 ## លំហាត់
 
 1. ប្រើ MakerBundle បង្កើត User និង form-login ក្នុង Symfony project ថ្មី។
 2. ពិនិត្យថា User provider ស្វែងរកតាម email។
-3. បង្កើត User test មួយ ដោយ hash password តាម \`UserPasswordHasherInterface\`។
+3. បង្កើត User test មួយ ដោយ hash password តាម `UserPasswordHasherInterface`។
 4. សាកល្បង login ជោគជ័យ, password ខុស និង logout។
 5. គូរលំហូរពី HTTP request រហូតដល់ authenticated session។
 
