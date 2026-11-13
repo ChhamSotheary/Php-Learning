@@ -148,6 +148,7 @@ php -v
 - [មេរៀនទី ១០៦៖ Symfony HTTP Client សម្រាប់ External API](03-Symfony/lesson-106-symfony-http-client-external-apis.md)
 - [មេរៀនទី ១០៧៖ Symfony Cache និង Cache Pools](03-Symfony/lesson-107-symfony-cache-pools-invalidation.md)
 - [មេរៀនទី ១០៨៖ Symfony Logging និង Monolog](03-Symfony/lesson-108-symfony-logging-monolog.md)
+- [មេរៀនទី ១០៩៖ Symfony Configuration, Environments និង Secrets](03-Symfony/lesson-109-symfony-configuration-environments-secrets.md)
 
 ## ឯកសារយោងផ្លូវការ
 
