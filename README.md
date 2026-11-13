@@ -138,6 +138,7 @@ php -v
 - [មេរៀនទី ៩៦៖ Symfony Doctrine CRUD និង Repositories](03-Symfony/lesson-96-symfony-doctrine-crud-repositories.md)
 - [មេរៀនទី ៩៧៖ Symfony Doctrine Relationships និង Associations](03-Symfony/lesson-97-symfony-doctrine-relationships.md)
 - [មេរៀនទី ៩៨៖ Symfony Security និង User Authentication](03-Symfony/lesson-98-symfony-security-authentication.md)
+- [មេរៀនទី ៩៩៖ Symfony Authorization, Roles និង Access Control](03-Symfony/lesson-99-symfony-authorization-roles-access-control.md)
 
 ## ឯកសារយោងផ្លូវការ
 
