@@ -145,6 +145,7 @@ php -v
 - [មេរៀនទី ១០៣៖ Symfony Messenger និង Background Queues](03-Symfony/lesson-103-symfony-messenger-background-queues.md)
 - [មេរៀនទី ១០៤៖ Symfony Mailer និងការផ្ញើ Email](03-Symfony/lesson-104-symfony-mailer-email.md)
 - [មេរៀនទី ១០៥៖ Symfony Testing — Unit និង Application Tests](03-Symfony/lesson-105-symfony-testing-unit-integration-application.md)
+- [មេរៀនទី ១០៦៖ Symfony HTTP Client សម្រាប់ External API](03-Symfony/lesson-106-symfony-http-client-external-apis.md)
 
 ## ឯកសារយោងផ្លូវការ
 
