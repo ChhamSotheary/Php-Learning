@@ -154,6 +154,7 @@ php -v
 - [មេរៀនទី ១១២៖ Portfolio Project ២ — PHP Inventory REST API](04-Portfolio-Projects/lesson-112-portfolio-project-02-php-inventory-rest-api.md)
 - [មេរៀនទី ១១៣៖ Portfolio Project ៣ — Laravel Blog CMS](04-Portfolio-Projects/lesson-113-portfolio-project-03-laravel-blog-cms.md)
 - [មេរៀនទី ១១៤៖ Portfolio Project ៤ — PHP Appointment Booking System](04-Portfolio-Projects/lesson-114-portfolio-project-04-php-appointment-booking-system.md)
+- [មេរៀនទី ១១៥៖ Portfolio Project ៥ — Secure PHP Storefront និង Order Management](04-Portfolio-Projects/lesson-115-portfolio-project-05-secure-php-storefront.md)
 
 ## ឯកសារយោងផ្លូវការ
 
