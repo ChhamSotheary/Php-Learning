@@ -144,6 +144,7 @@ php -v
 - [មេរៀនទី ១០២៖ Symfony Events, Listeners និង Subscribers](03-Symfony/lesson-102-symfony-events-listeners-subscribers.md)
 - [មេរៀនទី ១០៣៖ Symfony Messenger និង Background Queues](03-Symfony/lesson-103-symfony-messenger-background-queues.md)
 - [មេរៀនទី ១០៤៖ Symfony Mailer និងការផ្ញើ Email](03-Symfony/lesson-104-symfony-mailer-email.md)
+- [មេរៀនទី ១០៥៖ Symfony Testing — Unit និង Application Tests](03-Symfony/lesson-105-symfony-testing-unit-integration-application.md)
 
 ## ឯកសារយោងផ្លូវការ
 
