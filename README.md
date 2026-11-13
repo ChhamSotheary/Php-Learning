@@ -146,6 +146,7 @@ php -v
 - [មេរៀនទី ១០៤៖ Symfony Mailer និងការផ្ញើ Email](03-Symfony/lesson-104-symfony-mailer-email.md)
 - [មេរៀនទី ១០៥៖ Symfony Testing — Unit និង Application Tests](03-Symfony/lesson-105-symfony-testing-unit-integration-application.md)
 - [មេរៀនទី ១០៦៖ Symfony HTTP Client សម្រាប់ External API](03-Symfony/lesson-106-symfony-http-client-external-apis.md)
+- [មេរៀនទី ១០៧៖ Symfony Cache និង Cache Pools](03-Symfony/lesson-107-symfony-cache-pools-invalidation.md)
 
 ## ឯកសារយោងផ្លូវការ
 
